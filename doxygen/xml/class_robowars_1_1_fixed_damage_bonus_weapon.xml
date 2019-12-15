@@ -15,9 +15,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="377" column="20" bodyfile="Robowars.cs" bodystart="377" bodyend="377"/>
-        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a97cf83217bee9b8b078d3a47649faa71" compoundref="_robowars_8cs" startline="381" endline="385">Robowars.FixedDamageBonusWeapon.FixedDamageBonusWeapon</referencedby>
-        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="386" endline="389">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
+        <location file="Robowars.cs" line="421" column="20" bodyfile="Robowars.cs" bodystart="421" bodyend="421"/>
+        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a97cf83217bee9b8b078d3a47649faa71" compoundref="_robowars_8cs" startline="425" endline="429">Robowars.FixedDamageBonusWeapon.FixedDamageBonusWeapon</referencedby>
+        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="430" endline="433">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="379" column="29" bodyfile="Robowars.cs" bodystart="379" bodyend="-1"/>
+        <location file="Robowars.cs" line="423" column="29" bodyfile="Robowars.cs" bodystart="423" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,9 +56,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="381" column="16" bodyfile="Robowars.cs" bodystart="381" bodyend="385"/>
-        <references refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" compoundref="_robowars_8cs" startline="377" endline="377">Robowars.FixedDamageBonusWeapon.Bonus</references>
-        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="367" endline="367">Robowars.WeaponEnhancement.EnhancedWeapon</references>
+        <location file="Robowars.cs" line="425" column="16" bodyfile="Robowars.cs" bodystart="425" bodyend="429"/>
+        <references refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" compoundref="_robowars_8cs" startline="421" endline="421">Robowars.FixedDamageBonusWeapon.Bonus</references>
+        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="411" endline="411">Robowars.WeaponEnhancement.EnhancedWeapon</references>
       </memberdef>
       <memberdef kind="function" id="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>override int</type>
@@ -72,10 +72,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="386" column="29" bodyfile="Robowars.cs" bodystart="386" bodyend="389"/>
-        <references refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" compoundref="_robowars_8cs" startline="377" endline="377">Robowars.FixedDamageBonusWeapon.Bonus</references>
-        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="367" endline="367">Robowars.WeaponEnhancement.EnhancedWeapon</references>
-        <references refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="319" endline="322">Robowars.Weapon.GetDamage</references>
+        <location file="Robowars.cs" line="430" column="29" bodyfile="Robowars.cs" bodystart="430" bodyend="433"/>
+        <references refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" compoundref="_robowars_8cs" startline="421" endline="421">Robowars.FixedDamageBonusWeapon.Bonus</references>
+        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="411" endline="411">Robowars.WeaponEnhancement.EnhancedWeapon</references>
+        <references refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="358" endline="361">Robowars.Weapon.GetDamage</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -118,7 +118,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="376" column="1" bodyfile="Robowars.cs" bodystart="375" bodyend="390"/>
+    <location file="Robowars.cs" line="420" column="1" bodyfile="Robowars.cs" bodystart="419" bodyend="434"/>
     <listofallmembers>
       <member refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" prot="public" virt="non-virtual"><scope>Robowars::FixedDamageBonusWeapon</scope><name>Bonus</name></member>
       <member refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" prot="package" virt="non-virtual"><scope>Robowars::FixedDamageBonusWeapon</scope><name>Damage</name></member>

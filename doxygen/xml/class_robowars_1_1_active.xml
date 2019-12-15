@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_active" kind="class" language="C#" prot="package">
+    <compoundname>Robowars::Active</compoundname>
+    <basecompoundref refid="class_robowars_1_1_robot_situation" prot="public" virt="non-virtual">Robowars.RobotSituation</basecompoundref>
+    <derivedcompoundref refid="class_robowars_1_1_attacking" prot="public" virt="non-virtual">Robowars.Attacking</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_active_1ae734e4f353b84122652f7de53c623988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.Active.Active</definition>
+        <argsstring>(Robot context, string feedback=&quot;&quot;)</argsstring>
+        <name>Active</name>
+        <param>
+          <type><ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>feedback</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="296" column="16" bodyfile="Robowars.cs" bodystart="296" bodyend="296"/>
+        <referencedby refid="class_robowars_1_1_attacking_1accbe3b2312589fc778bc880bd623bb5c" compoundref="_robowars_8cs" startline="312" endline="312">Robowars.Attacking.Ready</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_active_1ac95d0caf88b941632fc067c585369494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Robowars.Active.Ready</definition>
+        <argsstring>()</argsstring>
+        <name>Ready</name>
+        <reimplements refid="class_robowars_1_1_robot_situation_1a8082d02e94cff6610c98697d756bf719">Ready</reimplements>
+        <reimplementedby refid="class_robowars_1_1_attacking_1accbe3b2312589fc778bc880bd623bb5c">Ready</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="298" column="30" bodyfile="Robowars.cs" bodystart="298" bodyend="298"/>
+        <references refid="class_robowars_1_1_robot_situation_1ac6a137c5644fa7f958070bbe433d8ee8" compoundref="_robowars_8cs" startline="287" endline="287">Robowars.RobotSituation.Feedback</references>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_active_1a26421016dfc83189728ee1eb9dfa4e62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Robowars.Active.Deactivate</definition>
+        <argsstring>()</argsstring>
+        <name>Deactivate</name>
+        <reimplements refid="class_robowars_1_1_robot_situation_1a0d950df88072b5d676cad290c764f0fb">Deactivate</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="300" column="30" bodyfile="Robowars.cs" bodystart="300" bodyend="300"/>
+        <references refid="class_robowars_1_1_robot_situation_1aa6596161fa208ab0636c35748e52757f" compoundref="_robowars_8cs" startline="274" endline="274">Robowars.RobotSituation.Context</references>
+        <references refid="class_robowars_1_1_robot_1aae9e14005ae5ecbc5378e8e358f82fd0" compoundref="_robowars_8cs" startline="165" endline="168">Robowars.Robot.Situation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_active_1abf09485e3c3a580dcfd11aa0e2a9174d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Robowars.Active.Attack</definition>
+        <argsstring>()</argsstring>
+        <name>Attack</name>
+        <reimplements refid="class_robowars_1_1_robot_situation_1aa328a18c2d4420ecb19e165ffedf3a02">Attack</reimplements>
+        <reimplementedby refid="class_robowars_1_1_attacking_1af41fd927b5191bf4be037e0516bb86e1">Attack</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="304" column="30" bodyfile="Robowars.cs" bodystart="304" bodyend="304"/>
+        <references refid="class_robowars_1_1_robot_situation_1aa6596161fa208ab0636c35748e52757f" compoundref="_robowars_8cs" startline="274" endline="274">Robowars.RobotSituation.Context</references>
+        <references refid="class_robowars_1_1_robot_1aae9e14005ae5ecbc5378e8e358f82fd0" compoundref="_robowars_8cs" startline="165" endline="168">Robowars.Robot.Situation</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_robowars_1_1_active_1a4a3f75fb1dee2f3b770699eab7a1f984" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Robowars.Active.Destroy</definition>
+        <argsstring>(String reason)</argsstring>
+        <name>Destroy</name>
+        <param>
+          <type>String</type>
+          <declname>reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="302" column="33" bodyfile="Robowars.cs" bodystart="302" bodyend="302"/>
+        <references refid="class_robowars_1_1_robot_situation_1aa6596161fa208ab0636c35748e52757f" compoundref="_robowars_8cs" startline="274" endline="274">Robowars.RobotSituation.Context</references>
+        <references refid="class_robowars_1_1_robot_1aae9e14005ae5ecbc5378e8e358f82fd0" compoundref="_robowars_8cs" startline="165" endline="168">Robowars.Robot.Situation</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Robowars.Attacking</label>
+        <link refid="class_robowars_1_1_attacking"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Robowars.Active</label>
+        <link refid="class_robowars_1_1_active"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RobotSituation</label>
+        <link refid="class_robowars_1_1_robot_situation"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.Active</label>
+        <link refid="class_robowars_1_1_active"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RobotSituation</label>
+        <link refid="class_robowars_1_1_robot_situation"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="294" column="1" bodyfile="Robowars.cs" bodystart="293" bodyend="306"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_active_1ae734e4f353b84122652f7de53c623988" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>Active</name></member>
+      <member refid="class_robowars_1_1_active_1abf09485e3c3a580dcfd11aa0e2a9174d" prot="public" virt="virtual"><scope>Robowars::Active</scope><name>Attack</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1aa6596161fa208ab0636c35748e52757f" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>Context</name></member>
+      <member refid="class_robowars_1_1_active_1a26421016dfc83189728ee1eb9dfa4e62" prot="public" virt="virtual"><scope>Robowars::Active</scope><name>Deactivate</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1a76af840bc00b412aa0323b47c49349b7" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>Description</name></member>
+      <member refid="class_robowars_1_1_active_1a4a3f75fb1dee2f3b770699eab7a1f984" prot="protected" virt="non-virtual"><scope>Robowars::Active</scope><name>Destroy</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1aa702ed730d928697a087a37a99ef28be" prot="protected" virt="pure-virtual" ambiguityscope="Robowars::RobotSituation."><scope>Robowars::Active</scope><name>Destroy</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1ac6a137c5644fa7f958070bbe433d8ee8" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>Feedback</name></member>
+      <member refid="class_robowars_1_1_active_1ac95d0caf88b941632fc067c585369494" prot="public" virt="virtual"><scope>Robowars::Active</scope><name>Ready</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1a3d5eaaf4397078ddc30b528dc8047b54" prot="private" virt="non-virtual"><scope>Robowars::Active</scope><name>RobotSituation</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1a5f079ed15855c5584f004f278794ef50" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>RobotSituation</name></member>
+      <member refid="class_robowars_1_1_robot_situation_1a8ac2050f72285d2b8db5f58259af3d74" prot="public" virt="non-virtual"><scope>Robowars::Active</scope><name>TakeDamage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

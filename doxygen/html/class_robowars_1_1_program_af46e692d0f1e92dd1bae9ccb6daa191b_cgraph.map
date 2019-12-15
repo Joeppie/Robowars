@@ -1,12 +1,11 @@
 <map id="Robowars.Program.Main" name="Robowars.Program.Main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,130,169,157"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_contest.html#abf6b758bc8ca3b0a5c8e82d95154014a" title="Shows a menu where the user can select a command to organize and initiate a fight" alt="" coords="217,130,413,157"/>
-<area shape="rect" id="node3" href="$class_robowars_1_1_robot_assembler.html#a33adb5edf364767e511a2ca2dbbb6bb3" title="Creates a new robot." alt="" coords="471,64,654,105"/>
-<area shape="rect" id="node6" href="$class_robowars_1_1_contest.html#aa78400fb2b86f1d4b6e963581fb0b3f1" title=" " alt="" coords="482,130,643,157"/>
-<area shape="rect" id="node9" href="$class_robowars_1_1_contest.html#aab738c7bae8a47f70118f9a0517551c1" title="Shows the status of the two contestants" alt="" coords="461,185,664,211"/>
-<area shape="rect" id="node4" href="$class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f" title="Creates weaponry for the robot." alt="" coords="729,5,912,47"/>
-<area shape="rect" id="node5" href="$class_robowars_1_1_robot_assembler.html#a0a90cc5b9ffa5c85e299159feb8f2ff4" title="Returns the name for a newly created robot." alt="" coords="712,71,929,98"/>
-<area shape="rect" id="node7" href="$class_robowars_1_1_robot.html#ae41ce01299fe98b573362be9c76172ee" title=" " alt="" coords="734,123,907,164"/>
-<area shape="rect" id="node8" href="$class_robowars_1_1_robot_1_1_robot_situation.html#a432be630bd8891af2e1afd4bac43793c" title=" " alt="" coords="977,123,1188,164"/>
-<area shape="rect" id="node10" href="$class_robowars_1_1_robot.html#a8f6dfbc39f615d923e0357c52c75599d" title=" " alt="" coords="741,189,900,215"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,169,105"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_contest.html#abf6b758bc8ca3b0a5c8e82d95154014a" title="Shows a menu where the user can select a command to organize and initiate a fight" alt="" coords="217,78,413,105"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robot_assembler.html#a33adb5edf364767e511a2ca2dbbb6bb3" title="Creates a new robot." alt="" coords="471,9,654,51"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_contest.html#aa78400fb2b86f1d4b6e963581fb0b3f1" title=" " alt="" coords="482,78,643,105"/>
+<area shape="rect" id="node8" href="$class_robowars_1_1_contest.html#aab738c7bae8a47f70118f9a0517551c1" title="Shows the status of the two contestants" alt="" coords="461,133,664,159"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a" title="Creates weaponry for the robot." alt="" coords="712,5,895,47"/>
+<area shape="rect" id="node6" href="$class_robowars_1_1_robot.html#ae41ce01299fe98b573362be9c76172ee" title=" " alt="" coords="717,71,890,112"/>
+<area shape="rect" id="node7" href="$class_robowars_1_1_robot_situation.html#a8082d02e94cff6610c98697d756bf719" title=" " alt="" coords="943,71,1115,112"/>
+<area shape="rect" id="node9" href="$class_robowars_1_1_robot.html#a66c7bc63683961a40302828a4b477a28" title="Writes the status of the robot to the console." alt="" coords="724,137,883,163"/>
 </map>

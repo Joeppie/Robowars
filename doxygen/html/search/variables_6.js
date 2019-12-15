@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['terminatorfacility_142',['TerminatorFacility',['../class_robowars_1_1_contest.html#a4ab8db4b5fcec16244f6c42329c766e2',1,'Robowars::Contest']]]
+  ['start_152',['start',['../class_robowars_1_1_sky_net.html#a02921b37dce6bd05d8524bf52a10df24',1,'Robowars::SkyNet']]]
 ];

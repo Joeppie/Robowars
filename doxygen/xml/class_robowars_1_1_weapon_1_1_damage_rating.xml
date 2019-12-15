@@ -15,8 +15,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="326" column="28" bodyfile="Robowars.cs" bodystart="326" bodyend="-1"/>
-        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="336" endline="339">Robowars.Weapon.DamageRating.Get</referencedby>
+        <location file="Robowars.cs" line="366" column="28" bodyfile="Robowars.cs" bodystart="366" bodyend="-1"/>
+        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="380" endline="383">Robowars.Weapon.DamageRating.Get</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="property">
@@ -31,9 +31,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="334" column="24" bodyfile="Robowars.cs" bodystart="334" bodyend="334"/>
-        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" compoundref="_robowars_8cs" startline="327" endline="333">Robowars.Weapon.DamageRating.DamageRating</referencedby>
-        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="336" endline="339">Robowars.Weapon.DamageRating.Get</referencedby>
+        <location file="Robowars.cs" line="376" column="24" bodyfile="Robowars.cs" bodystart="376" bodyend="376"/>
+        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" compoundref="_robowars_8cs" startline="368" endline="374">Robowars.Weapon.DamageRating.DamageRating</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="380" endline="383">Robowars.Weapon.DamageRating.Get</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>int</type>
@@ -46,9 +46,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="335" column="24" bodyfile="Robowars.cs" bodystart="335" bodyend="335"/>
-        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" compoundref="_robowars_8cs" startline="327" endline="333">Robowars.Weapon.DamageRating.DamageRating</referencedby>
-        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="336" endline="339">Robowars.Weapon.DamageRating.Get</referencedby>
+        <location file="Robowars.cs" line="377" column="24" bodyfile="Robowars.cs" bodystart="377" bodyend="377"/>
+        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" compoundref="_robowars_8cs" startline="368" endline="374">Robowars.Weapon.DamageRating.DamageRating</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="380" endline="383">Robowars.Weapon.DamageRating.Get</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -71,9 +71,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="327" column="20" bodyfile="Robowars.cs" bodystart="327" bodyend="333"/>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" compoundref="_robowars_8cs" startline="335" endline="335">Robowars.Weapon.DamageRating.Max</references>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" compoundref="_robowars_8cs" startline="334" endline="334">Robowars.Weapon.DamageRating.Min</references>
+        <location file="Robowars.cs" line="368" column="20" bodyfile="Robowars.cs" bodystart="368" bodyend="374"/>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" compoundref="_robowars_8cs" startline="377" endline="377">Robowars.Weapon.DamageRating.Max</references>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" compoundref="_robowars_8cs" startline="376" endline="376">Robowars.Weapon.DamageRating.Min</references>
       </memberdef>
       </sectiondef>
       <sectiondef kind="package-func">
@@ -83,19 +83,21 @@
         <argsstring>()</argsstring>
         <name>Get</name>
         <briefdescription>
+<para>Gets a new random damage between <ref refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" kindref="member">Min</ref> and <ref refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" kindref="member">Max</ref>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="336" column="26" bodyfile="Robowars.cs" bodystart="336" bodyend="339"/>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" compoundref="_robowars_8cs" startline="335" endline="335">Robowars.Weapon.DamageRating.Max</references>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" compoundref="_robowars_8cs" startline="334" endline="334">Robowars.Weapon.DamageRating.Min</references>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1a5e6c8641a210408076ace8aa71548b85" compoundref="_robowars_8cs" startline="326">Robowars.Weapon.DamageRating.random</references>
-        <referencedby refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="319" endline="322">Robowars.Weapon.GetDamage</referencedby>
+        <location file="Robowars.cs" line="380" column="26" bodyfile="Robowars.cs" bodystart="380" bodyend="383"/>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" compoundref="_robowars_8cs" startline="377" endline="377">Robowars.Weapon.DamageRating.Max</references>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" compoundref="_robowars_8cs" startline="376" endline="376">Robowars.Weapon.DamageRating.Min</references>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1a5e6c8641a210408076ace8aa71548b85" compoundref="_robowars_8cs" startline="366">Robowars.Weapon.DamageRating.random</references>
+        <referencedby refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="358" endline="361">Robowars.Weapon.GetDamage</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Defines a random damage between <ref refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" kindref="member">Min</ref> and <ref refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" kindref="member">Max</ref>. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -105,7 +107,7 @@
         <link refid="class_robowars_1_1_weapon_1_1_damage_rating"/>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="325" column="1" bodyfile="Robowars.cs" bodystart="324" bodyend="340"/>
+    <location file="Robowars.cs" line="365" column="1" bodyfile="Robowars.cs" bodystart="364" bodyend="384"/>
     <listofallmembers>
       <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" prot="public" virt="non-virtual"><scope>Robowars::Weapon::DamageRating</scope><name>DamageRating</name></member>
       <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" prot="package" virt="non-virtual"><scope>Robowars::Weapon::DamageRating</scope><name>Get</name></member>

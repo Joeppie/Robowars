@@ -1,0 +1,6 @@
+<map id="WeaponEnhancement" name="WeaponEnhancement">
+<area shape="rect" id="node1" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="157,160,308,237"/>
+<area shape="rect" id="node3" href="$class_fixed_damage_bonus_weapon.html" title=" " alt="" coords="5,285,212,392"/>
+<area shape="rect" id="node4" href="$class_percentage_bonus_damage_weapon.html" title=" " alt="" coords="236,285,477,392"/>
+<area shape="rect" id="node2" href="$class_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="177,5,288,112"/>
+</map>

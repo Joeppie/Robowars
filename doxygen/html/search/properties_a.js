@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['situation_159',['Situation',['../class_robowars_1_1_robot.html#aae9e14005ae5ecbc5378e8e358f82fd0',1,'Robowars::Robot']]]
+  ['weapons_173',['Weapons',['../class_robowars_1_1_robot.html#a84a5824c1e2104ba8ea35ced5916ba0e',1,'Robowars::Robot']]]
 ];

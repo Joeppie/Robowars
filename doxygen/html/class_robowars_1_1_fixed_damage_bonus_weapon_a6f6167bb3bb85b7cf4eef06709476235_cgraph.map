@@ -1,5 +1,5 @@
 <map id="Robowars.FixedDamageBonusWeapon.GetDamage" name="Robowars.FixedDamageBonusWeapon.GetDamage">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,205,47"/>
 <area shape="rect" id="node2" href="$class_robowars_1_1_weapon.html#aa2c866db4e3d5317d1ceda6c29b4dcc4" title=" " alt="" coords="253,13,457,39"/>
-<area shape="rect" id="node3" href="$class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f" title=" " alt="" coords="505,13,751,39"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f" title="Gets a new random damage between Min and Max." alt="" coords="505,13,751,39"/>
 </map>

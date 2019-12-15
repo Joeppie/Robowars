@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robot_assembler" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>RobotAssembler</compoundname>
+    <derivedcompoundref refid="class_mining_robot_maker" prot="public" virt="non-virtual">MiningRobotMaker</derivedcompoundref>
+    <derivedcompoundref refid="class_sky_net" prot="public" virt="non-virtual">SkyNet</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robot_assembler_1a343711d409a9aa5464a0943b4d596ec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
+        <definition>Robot RobotAssembler.AssembleRobot</definition>
+        <argsstring>()</argsstring>
+        <name>AssembleRobot</name>
+        <briefdescription>
+<para>Creates a new robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="502" column="18" bodyfile="Robowars.cs" bodystart="502" bodyend="505"/>
+        <references refid="class_robot_assembler_1ad6eeb1718d47ea3a103ed3ccd2930d00">CreateRobot</references>
+        <referencedby refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_robowars_8cs" startline="48" endline="99">Robowars.Contest.ShowMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_robot_assembler_1ad6eeb1718d47ea3a103ed3ccd2930d00" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
+        <definition>abstract Robot RobotAssembler.CreateRobot</definition>
+        <argsstring>()</argsstring>
+        <name>CreateRobot</name>
+        <reimplementedby refid="class_sky_net_1aad35e4c2d375c3d99061020609b10cc2">CreateRobot</reimplementedby>
+        <reimplementedby refid="class_mining_robot_maker_1a25d785e9f638ee77dbf1ebc118ed51cc">CreateRobot</reimplementedby>
+        <briefdescription>
+<para>Creates weaponry for the robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="507" column="30"/>
+        <referencedby refid="class_robot_assembler_1a343711d409a9aa5464a0943b4d596ec6" compoundref="_robowars_8cs" startline="502" endline="505">AssembleRobot</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents logic regarding how specific robots may be produced. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>SkyNet</label>
+        <link refid="class_sky_net"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>RobotAssembler</label>
+        <link refid="class_robot_assembler"/>
+      </node>
+      <node id="2">
+        <label>MiningRobotMaker</label>
+        <link refid="class_mining_robot_maker"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>RobotAssembler</label>
+        <link refid="class_robot_assembler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="500" column="1" bodyfile="Robowars.cs" bodystart="499" bodyend="508"/>
+    <listofallmembers>
+      <member refid="class_robot_assembler_1a343711d409a9aa5464a0943b4d596ec6" prot="public" virt="non-virtual"><scope>RobotAssembler</scope><name>AssembleRobot</name></member>
+      <member refid="class_robot_assembler_1ad6eeb1718d47ea3a103ed3ccd2930d00" prot="protected" virt="pure-virtual"><scope>RobotAssembler</scope><name>CreateRobot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

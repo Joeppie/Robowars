@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_robowars_1_1_robot.html" title=" " alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node1" href="$class_robowars_1_1_robot.html" title=" " alt="" coords="5,31,123,57"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_miner.html" title=" " alt="" coords="185,5,300,32"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_terminator.html" title=" " alt="" coords="171,56,315,83"/>
 </map>

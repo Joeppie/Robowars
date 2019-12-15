@@ -46,15 +46,15 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 709;
+var viewWidth = 641;
 var viewHeight = 132;
-var sectionId = 'dynsection-3';
+var sectionId = 'dynsection-4';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>Robowars.Robot.Attack</title>
-<polygon fill="white" stroke="none" points="-4,4 -4,-128 705,-128 705,4 -4,4"/>
+<polygon fill="white" stroke="none" points="-4,4 -4,-128 637,-128 637,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
 <g id="a_node1"><a xlink:title="Robot attacks the other robot with a random weapon, if the situation allows.">
@@ -65,72 +65,72 @@ var sectionId = 'dynsection-3';
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="class_robowars_1_1_robot_1_1_robot_situation.html#a76891b2742c61cc0d9946ba27176fed8" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="155,-93.5 155,-123.5 313,-123.5 313,-93.5 155,-93.5"/>
-<text text-anchor="start" x="163" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.RobotSituation.</text>
-<text text-anchor="middle" x="234" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Attack</text>
+<g id="a_node2"><a xlink:href="class_robowars_1_1_robot_situation.html#aa328a18c2d4420ecb19e165ffedf3a02" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="164.5,-93.5 164.5,-123.5 293.5,-123.5 293.5,-93.5 164.5,-93.5"/>
+<text text-anchor="start" x="172.5" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.RobotSituation.</text>
+<text text-anchor="middle" x="229" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00">Attack</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M94.1692,-69.064C115.818,-75.2134 144.612,-83.3928 170.364,-90.7078"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="169.488,-94.0973 180.064,-93.463 171.401,-87.3637 169.488,-94.0973"/>
+<path fill="none" stroke="midnightblue" d="M93.1933,-69.064C114.122,-75.1863 141.928,-83.3208 166.849,-90.6111"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="166.018,-94.0145 176.598,-93.463 167.983,-87.2961 166.018,-94.0145"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="class_robowars_1_1_robot_1_1_robot_situation.html#a60fd3df331b4cf201f00d9b112ff3d80" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="155,-44.5 155,-74.5 313,-74.5 313,-44.5 155,-44.5"/>
-<text text-anchor="start" x="163" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.RobotSituation.</text>
-<text text-anchor="middle" x="234" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">Deactivate</text>
+<g id="a_node3"><a xlink:href="class_robowars_1_1_robot_situation.html#a0d950df88072b5d676cad290c764f0fb" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="164.5,-44.5 164.5,-74.5 293.5,-74.5 293.5,-44.5 164.5,-44.5"/>
+<text text-anchor="start" x="172.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.RobotSituation.</text>
+<text text-anchor="middle" x="229" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">Deactivate</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M119.382,-59.5C127.59,-59.5 136.166,-59.5 144.769,-59.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="144.86,-63.0001 154.86,-59.5 144.86,-56.0001 144.86,-63.0001"/>
+<path fill="none" stroke="midnightblue" d="M119.083,-59.5C130.393,-59.5 142.378,-59.5 154.102,-59.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="154.313,-63.0001 164.313,-59.5 154.313,-56.0001 154.313,-63.0001"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="class_robowars_1_1_robot.html#a9cbd51f30a41c882ad9fd152a13646e9" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="160,-6 160,-25 308,-25 308,-6 160,-6"/>
-<text text-anchor="middle" x="234" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.TakeDamage</text>
+<polygon fill="white" stroke="black" points="155,-6 155,-25 303,-25 303,-6 155,-6"/>
+<text text-anchor="middle" x="229" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.TakeDamage</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M97.9299,-49.9527C123.699,-43.3796 158.138,-34.5952 185.791,-27.5417"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="186.818,-30.8918 195.643,-25.0287 185.088,-24.109 186.818,-30.8918"/>
+<path fill="none" stroke="midnightblue" d="M96.845,-49.9527C121.758,-43.4084 155.015,-34.6722 181.806,-27.6346"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="182.943,-30.9546 191.726,-25.0287 181.165,-24.1843 182.943,-30.9546"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="class_robowars_1_1_robot_1_1_robot_situation.html#af0b1aa1c5f80cf36c5d3761195cb87a0" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="349,-0.5 349,-30.5 507,-30.5 507,-0.5 349,-0.5"/>
-<text text-anchor="start" x="357" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.RobotSituation.</text>
-<text text-anchor="middle" x="428" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TakeDamage</text>
+<g id="a_node5"><a xlink:href="class_robowars_1_1_robot_situation.html#a8ac2050f72285d2b8db5f58259af3d74" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="339,-0.5 339,-30.5 468,-30.5 468,-0.5 339,-0.5"/>
+<text text-anchor="start" x="347" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.RobotSituation.</text>
+<text text-anchor="middle" x="403.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TakeDamage</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M308.135,-15.5C318.149,-15.5 328.516,-15.5 338.765,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="338.956,-19.0001 348.956,-15.5 338.956,-12.0001 338.956,-19.0001"/>
+<path fill="none" stroke="midnightblue" d="M303.156,-15.5C311.577,-15.5 320.169,-15.5 328.6,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="328.782,-19.0001 338.782,-15.5 328.782,-12.0001 328.782,-19.0001"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="class_robowars_1_1_robot_1_1_robot_situation.html#a394230c42ef626a4beb86548a0856128" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="543,-0.5 543,-30.5 701,-30.5 701,-0.5 543,-0.5"/>
-<text text-anchor="start" x="551" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Robot.RobotSituation.</text>
-<text text-anchor="middle" x="622" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Destroy</text>
+<g id="a_node6"><a xlink:href="class_robowars_1_1_robot_situation.html#aa702ed730d928697a087a37a99ef28be" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="504,-0.5 504,-30.5 633,-30.5 633,-0.5 504,-0.5"/>
+<text text-anchor="start" x="512" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.RobotSituation.</text>
+<text text-anchor="middle" x="568.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Destroy</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M507.094,-15.5C515.601,-15.5 524.302,-15.5 532.918,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="532.975,-19.0001 542.975,-15.5 532.975,-12.0001 532.975,-19.0001"/>
+<path fill="none" stroke="midnightblue" d="M468.454,-15.5C476.761,-15.5 485.322,-15.5 493.772,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="493.998,-19.0001 503.998,-15.5 493.998,-12.0001 493.998,-19.0001"/>
 </g>
 </g>
 </svg>

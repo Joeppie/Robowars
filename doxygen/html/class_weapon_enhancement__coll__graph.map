@@ -1,0 +1,4 @@
+<map id="WeaponEnhancement" name="WeaponEnhancement">
+<area shape="rect" id="node1" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="5,160,156,237"/>
+<area shape="rect" id="node2" href="$class_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="25,5,136,112"/>
+</map>

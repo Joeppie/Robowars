@@ -26,7 +26,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="class_robowars_1_1_weapon_enhancement.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="class_robowars_1_1_weapon_enhancement.html" target="_top" xlink:title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ...">
 <polygon fill="white" stroke="black" points="34,-127.5 34,-184.5 147,-184.5 147,-127.5 34,-127.5"/>
 <text text-anchor="middle" x="90.5" y="-172.5" font-family="Helvetica,sans-Serif" font-size="10.00">WeaponEnhancement</text>
 <polyline fill="none" stroke="black" points="34,-165.5 147,-165.5 "/>
@@ -43,7 +43,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="class_robowars_1_1_weapon.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_robowars_1_1_weapon.html" target="_top" xlink:title="Defines a top level interface for a weapon.">
 <polygon fill="white" stroke="black" points="49,-221.5 49,-300.5 132,-300.5 132,-221.5 49,-221.5"/>
 <text text-anchor="middle" x="90.5" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">Weapon</text>
 <polyline fill="none" stroke="black" points="49,-281.5 132,-281.5 "/>

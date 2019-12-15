@@ -1,4 +1,4 @@
 <map id="Robowars.MiningRobotMaker" name="Robowars.MiningRobotMaker">
-<area shape="rect" id="node1" title="Creates friendly mining robots" alt="" coords="5,160,196,252"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html" title=" " alt="" coords="33,5,168,112"/>
+<area shape="rect" id="node1" title="Creates friendly mining robots" alt="" coords="5,145,196,223"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html" title="Represents logic regarding how specific robots may be produced." alt="" coords="33,5,168,97"/>
 </map>

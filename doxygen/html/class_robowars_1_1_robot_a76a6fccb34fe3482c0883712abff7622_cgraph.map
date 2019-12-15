@@ -1,8 +1,8 @@
 <map id="Robowars.Robot.Attack" name="Robowars.Robot.Attack">
 <area shape="rect" id="node1" title="Robot attacks the other robot with a random weapon, if the situation allows." alt="" coords="5,78,164,105"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_robot_1_1_robot_situation.html#a76891b2742c61cc0d9946ba27176fed8" title=" " alt="" coords="212,5,423,47"/>
-<area shape="rect" id="node3" href="$class_robowars_1_1_robot_1_1_robot_situation.html#a60fd3df331b4cf201f00d9b112ff3d80" title=" " alt="" coords="212,71,423,112"/>
-<area shape="rect" id="node4" href="$class_robowars_1_1_robot.html#a9cbd51f30a41c882ad9fd152a13646e9" title=" " alt="" coords="219,137,416,163"/>
-<area shape="rect" id="node5" href="$class_robowars_1_1_robot_1_1_robot_situation.html#af0b1aa1c5f80cf36c5d3761195cb87a0" title=" " alt="" coords="471,129,681,171"/>
-<area shape="rect" id="node6" href="$class_robowars_1_1_robot_1_1_robot_situation.html#a394230c42ef626a4beb86548a0856128" title=" " alt="" coords="729,129,940,171"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_situation.html#aa328a18c2d4420ecb19e165ffedf3a02" title=" " alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robot_situation.html#a0d950df88072b5d676cad290c764f0fb" title=" " alt="" coords="225,71,397,112"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robot.html#a9cbd51f30a41c882ad9fd152a13646e9" title=" " alt="" coords="212,137,409,163"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_robot_situation.html#a8ac2050f72285d2b8db5f58259af3d74" title=" " alt="" coords="457,129,629,171"/>
+<area shape="rect" id="node6" href="$class_robowars_1_1_robot_situation.html#aa702ed730d928697a087a37a99ef28be" title=" " alt="" coords="677,129,849,171"/>
 </map>

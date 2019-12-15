@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_laser" kind="class" language="C#" prot="public">
+    <compoundname>Laser</compoundname>
+    <basecompoundref refid="class_weapon" prot="public" virt="non-virtual">Weapon</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_laser_1aa73ab6f8d6e302ee0f233fbf74af4df0" prot="public" static="no" mutable="no">
+        <type>override int</type>
+        <definition>override int Laser.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <initializer>=&gt; 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="395" column="25" bodyfile="Robowars.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_laser_1a78dbc9f223796e02cea218a47d5d251c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Laser.Laser</definition>
+        <argsstring>()</argsstring>
+        <name>Laser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="389" column="12" bodyfile="Robowars.cs" bodystart="389" bodyend="393"/>
+        <references refid="class_weapon_1ab45e8639e7cfda71f4049db9e56d276f" compoundref="_robowars_8cs" startline="356" endline="356">Weapon.Damage</references>
+        <references refid="class_weapon_1a98dfe2456f052debf1724b96d0b3a5c5" compoundref="_robowars_8cs" startline="354" endline="354">Weapon.Name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+      </node>
+      <node id="1">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+      </node>
+      <node id="1">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="388" column="1" bodyfile="Robowars.cs" bodystart="387" bodyend="396"/>
+    <listofallmembers>
+      <member refid="class_weapon_1ab45e8639e7cfda71f4049db9e56d276f" prot="package" virt="non-virtual"><scope>Laser</scope><name>Damage</name></member>
+      <member refid="class_weapon_1ad704df53ef408c09160d55eb2ea5baf2" prot="public" virt="virtual"><scope>Laser</scope><name>GetDamage</name></member>
+      <member refid="class_laser_1a78dbc9f223796e02cea218a47d5d251c" prot="public" virt="non-virtual"><scope>Laser</scope><name>Laser</name></member>
+      <member refid="class_weapon_1a98dfe2456f052debf1724b96d0b3a5c5" prot="public" virt="non-virtual"><scope>Laser</scope><name>Name</name></member>
+      <member refid="class_laser_1aa73ab6f8d6e302ee0f233fbf74af4df0" prot="public" virt="non-virtual"><scope>Laser</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

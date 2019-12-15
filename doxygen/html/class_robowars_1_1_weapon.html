@@ -74,6 +74,9 @@ $(function() {
 <div class="title">Robowars.Weapon Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Defines a top level interface for a weapon.  
+ <a href="class_robowars_1_1_weapon.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Robowars.Weapon:</div>
 <div class="dyncontent">
@@ -88,6 +91,7 @@ Collaboration diagram for Robowars.Weapon:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_weapon_1_1_damage_rating.html">DamageRating</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines a random damage between <a class="el" href="class_robowars_1_1_weapon_1_1_damage_rating.html#afb9a2129b61e2a8f5afe1b0c6f7bf9a1">Min</a> and <a class="el" href="class_robowars_1_1_weapon_1_1_damage_rating.html#abcf7f629bf1a86be4d1d42483d7e70f9">Max</a>.  <a href="class_robowars_1_1_weapon_1_1_damage_rating.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -98,6 +102,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a22e3eae14b728ec459cf98136f62ce53"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_weapon.html#a22e3eae14b728ec459cf98136f62ce53">PowerDrain</a><code> [get]</code></td></tr>
+<tr class="memdesc:a22e3eae14b728ec459cf98136f62ce53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using the weapon drains this amount of power.  <a href="class_robowars_1_1_weapon.html#a22e3eae14b728ec459cf98136f62ce53">More...</a><br /></td></tr>
 <tr class="separator:a22e3eae14b728ec459cf98136f62ce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a3f54c2db9108435e0468128233bac"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_weapon.html#a86a3f54c2db9108435e0468128233bac">Name</a><code> [get, set]</code></td></tr>
 <tr class="separator:a86a3f54c2db9108435e0468128233bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,8 +110,9 @@ Properties</h2></td></tr>
 <tr class="separator:a55732009b79f4ae405e501aac992a23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00311">311</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="textblock"><p>Defines a top level interface for a weapon. </p>
+
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00349">349</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa2c866db4e3d5317d1ceda6c29b4dcc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2c866db4e3d5317d1ceda6c29b4dcc4">&#9670;&nbsp;</a></span>GetDamage()</h2>
@@ -133,10 +139,10 @@ Properties</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#aad9283c4b29268702cb15f52c7e1213f">Robowars.PercentageBonusDamageWeapon</a>, <a class="el" href="class_robowars_1_1_fixed_damage_bonus_weapon.html#a6f6167bb3bb85b7cf4eef06709476235">Robowars.FixedDamageBonusWeapon</a>, and <a class="el" href="class_robowars_1_1_weapon_enhancement.html#a6495deceb97d01af4725287e37fad853">Robowars.WeaponEnhancement</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00319">319</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        {</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_robowars_1_1_weapon.html#a55732009b79f4ae405e501aac992a23d">Damage</a>.<a class="code" href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f">Get</a>();</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00358">358</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_robowars_1_1_weapon.html#a55732009b79f4ae405e501aac992a23d">Damage</a>.<a class="code" href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f">Get</a>();</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -171,8 +177,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00317">317</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">protected</span> <span class="keyword">set</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00356">356</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">protected</span> <span class="keyword">set</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -196,8 +202,8 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00315">315</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00354">354</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -221,8 +227,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00313">313</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;{ <span class="keyword">get</span>; }</div>
+<p>Using the weapon drains this amount of power. </p>
+
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00352">352</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{ <span class="keyword">get</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -230,8 +238,8 @@ Here is the caller graph for this function:</div>
 <li><a class="el" href="_robowars_8cs_source.html">Robowars.cs</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclass_robowars_1_1_weapon_1_1_damage_rating_html_a467baf6e92ccab89e2668032215af28f"><div class="ttname"><a href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f">Robowars.Weapon.DamageRating.Get</a></div><div class="ttdeci">int Get()</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00336">Robowars.cs:336</a></div></div>
-<div class="ttc" id="aclass_robowars_1_1_weapon_html_a55732009b79f4ae405e501aac992a23d"><div class="ttname"><a href="class_robowars_1_1_weapon.html#a55732009b79f4ae405e501aac992a23d">Robowars.Weapon.Damage</a></div><div class="ttdeci">DamageRating Damage</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00317">Robowars.cs:317</a></div></div>
+<div class="ttc" id="aclass_robowars_1_1_weapon_1_1_damage_rating_html_a467baf6e92ccab89e2668032215af28f"><div class="ttname"><a href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f">Robowars.Weapon.DamageRating.Get</a></div><div class="ttdeci">int Get()</div><div class="ttdoc">Gets a new random damage between Min and Max.</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00380">Robowars.cs:380</a></div></div>
+<div class="ttc" id="aclass_robowars_1_1_weapon_html_a55732009b79f4ae405e501aac992a23d"><div class="ttname"><a href="class_robowars_1_1_weapon.html#a55732009b79f4ae405e501aac992a23d">Robowars.Weapon.Damage</a></div><div class="ttdeci">DamageRating Damage</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00356">Robowars.cs:356</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -73,15 +73,18 @@ $(function() {
 <div class="title">Robowars.RobotAssembler Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents logic regarding how specific robots may be produced.  
+ <a href="class_robowars_1_1_robot_assembler.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Robowars.RobotAssembler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler__inherit__graph.svg" width="360" height="302"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler__inherit__graph.svg" width="352" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Collaboration diagram for Robowars.RobotAssembler:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler__coll__graph.svg" width="190" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler__coll__graph.svg" width="190" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -92,16 +95,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0a90cc5b9ffa5c85e299159feb8f2ff4"><td class="memItemLeft" align="right" valign="top">abstract string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_robot_assembler.html#a0a90cc5b9ffa5c85e299159feb8f2ff4">Name</a> ()</td></tr>
-<tr class="memdesc:a0a90cc5b9ffa5c85e299159feb8f2ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name for a newly created robot.  <a href="class_robowars_1_1_robot_assembler.html#a0a90cc5b9ffa5c85e299159feb8f2ff4">More...</a><br /></td></tr>
-<tr class="separator:a0a90cc5b9ffa5c85e299159feb8f2ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad9c5cff1aab535f762950f7a031d51f"><td class="memItemLeft" align="right" valign="top">abstract List&lt; <a class="el" href="class_robowars_1_1_weapon.html">Weapon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f">CreateWeapons</a> ()</td></tr>
-<tr class="memdesc:aad9c5cff1aab535f762950f7a031d51f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates weaponry for the robot.  <a href="class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f">More...</a><br /></td></tr>
-<tr class="separator:aad9c5cff1aab535f762950f7a031d51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d4c946e230f19bc4117ef4835e658a"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_robowars_1_1_robot.html">Robot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a">CreateRobot</a> ()</td></tr>
+<tr class="memdesc:a74d4c946e230f19bc4117ef4835e658a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates weaponry for the robot.  <a href="class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a">More...</a><br /></td></tr>
+<tr class="separator:a74d4c946e230f19bc4117ef4835e658a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00455">455</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="textblock"><p>Represents logic regarding how specific robots may be produced. </p>
+
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00500">500</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a33adb5edf364767e511a2ca2dbbb6bb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33adb5edf364767e511a2ca2dbbb6bb3">&#9670;&nbsp;</a></span>AssembleRobot()</h2>
@@ -120,15 +121,14 @@ Protected Member Functions</h2></td></tr>
 
 <p>Creates a new robot. </p>
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00458">458</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        {</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            Robot robot = <span class="keyword">new</span> Robot(<a class="code" href="class_robowars_1_1_robot_assembler.html#a0a90cc5b9ffa5c85e299159feb8f2ff4">Name</a>(), <a class="code" href="class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f">CreateWeapons</a>());</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;            <span class="keywordflow">return</span> robot;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00503">503</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        {</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a">CreateRobot</a>();</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        }</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler_a33adb5edf364767e511a2ca2dbbb6bb3_cgraph.svg" width="459" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler_a33adb5edf364767e511a2ca2dbbb6bb3_cgraph.svg" width="424" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -138,8 +138,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aad9c5cff1aab535f762950f7a031d51f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad9c5cff1aab535f762950f7a031d51f">&#9670;&nbsp;</a></span>CreateWeapons()</h2>
+<a id="a74d4c946e230f19bc4117ef4835e658a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d4c946e230f19bc4117ef4835e658a">&#9670;&nbsp;</a></span>CreateRobot()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,7 +148,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract List&lt;<a class="el" href="class_robowars_1_1_weapon.html">Weapon</a>&gt; Robowars.RobotAssembler.CreateWeapons </td>
+          <td class="memname">abstract <a class="el" href="class_robowars_1_1_robot.html">Robot</a> Robowars.RobotAssembler.CreateRobot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -163,45 +163,11 @@ Here is the caller graph for this function:</div>
 
 <p>Creates weaponry for the robot. </p>
 
-<p>Implemented in <a class="el" href="class_robowars_1_1_mining_robot_maker.html#a05f71d88ab7da96a60ee10daeb3e26fb">Robowars.MiningRobotMaker</a>, and <a class="el" href="class_robowars_1_1_sky_net.html#ade22c7f2ef5b04b241d485a7dcc44312">Robowars.SkyNet</a>.</p>
+<p>Implemented in <a class="el" href="class_robowars_1_1_mining_robot_maker.html#abeffc24ed40c904c9b0630cf0ad6c2f5">Robowars.MiningRobotMaker</a>, and <a class="el" href="class_robowars_1_1_sky_net.html#a76aa41e68d9b4430628f687c63b32331">Robowars.SkyNet</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler_aad9c5cff1aab535f762950f7a031d51f_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a0a90cc5b9ffa5c85e299159feb8f2ff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a90cc5b9ffa5c85e299159feb8f2ff4">&#9670;&nbsp;</a></span>Name()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract string Robowars.RobotAssembler.Name </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the name for a newly created robot. </p>
-
-<p>Implemented in <a class="el" href="class_robowars_1_1_mining_robot_maker.html#a8e5c2b423357c2255c2561e60762073f">Robowars.MiningRobotMaker</a>, and <a class="el" href="class_robowars_1_1_sky_net.html#a439d243778dff20a079d1e65fd37d393">Robowars.SkyNet</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler_a0a90cc5b9ffa5c85e299159feb8f2ff4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="class_robowars_1_1_robot_assembler_a74d4c946e230f19bc4117ef4835e658a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -210,8 +176,7 @@ Here is the caller graph for this function:</div>
 <li><a class="el" href="_robowars_8cs_source.html">Robowars.cs</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclass_robowars_1_1_robot_assembler_html_aad9c5cff1aab535f762950f7a031d51f"><div class="ttname"><a href="class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f">Robowars.RobotAssembler.CreateWeapons</a></div><div class="ttdeci">abstract List&lt; Weapon &gt; CreateWeapons()</div><div class="ttdoc">Creates weaponry for the robot.</div></div>
-<div class="ttc" id="aclass_robowars_1_1_robot_assembler_html_a0a90cc5b9ffa5c85e299159feb8f2ff4"><div class="ttname"><a href="class_robowars_1_1_robot_assembler.html#a0a90cc5b9ffa5c85e299159feb8f2ff4">Robowars.RobotAssembler.Name</a></div><div class="ttdeci">abstract string Name()</div><div class="ttdoc">Returns the name for a newly created robot.</div></div>
+<div class="ttc" id="aclass_robowars_1_1_robot_assembler_html_a74d4c946e230f19bc4117ef4835e658a"><div class="ttname"><a href="class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a">Robowars.RobotAssembler.CreateRobot</a></div><div class="ttdeci">abstract Robot CreateRobot()</div><div class="ttdoc">Creates weaponry for the robot.</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -1,0 +1,5 @@
+<map id="WeaponEnhancement.GetDamage" name="WeaponEnhancement.GetDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node2" href="$class_weapon.html#ad704df53ef408c09160d55eb2ea5baf2" title=" " alt="" coords="276,5,419,32"/>
+<area shape="rect" id="node3" href="$class_weapon_1_1_damage_rating.html#ac62558ba51c8e83148a3d38317f5d228" title="Gets a new random damage between Min and Max." alt="" coords="467,5,651,32"/>
+</map>

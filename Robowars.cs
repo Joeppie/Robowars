@@ -27,7 +27,6 @@ namespace Robowars
         private MiningRobotMaker _miningRobotMaker = new MiningRobotMaker();
         public RobotAssembler MiningFacility => _miningRobotMaker;
 
-        
         /// <summary>Shows the status of the two contestants</summary>
         public void ShowStatus()
         {
@@ -53,7 +52,6 @@ namespace Robowars
             ConsoleKeyInfo key;
             while (true)
             {
-
                 Console.WriteLine("1: Make Contestant 1 a terminator.");
                 Console.WriteLine("2: Make Contestant 2 a terminator.");
                 Console.WriteLine("3: Make Contestant 1 a mining robot.");
@@ -150,12 +148,11 @@ namespace Robowars
         }
     }
 
-    public class Robot
+    public abstract class Robot
     {
         #region constructors
-        internal Robot(string name, IEnumerable<Weapon> weapons)
+        internal Robot(IEnumerable<Weapon> weapons)
         {
-            Name = name;
             _weapons = weapons.ToList();
 
             Situation = new Standby(this);
@@ -175,13 +172,13 @@ namespace Robowars
         public bool IsStandby => Situation is Standby;
         public bool IsMoving => Situation is Attacking;
 
-        public string Name { get; private set; }
+        public string Name { get; protected set; }
 
         /// <summary>Is both the health and ability to attack for a robot.</summary>
         public int PowerLevel { get; internal set; }
 
         private List<Weapon> _weapons = new List<Weapon>(); //backing field.
-        public IEnumerable<Weapon> Weapons { get { return _weapons.ToList(); } }
+        public List<Weapon> Weapons { get { return _weapons.ToList(); } }
 
         #endregion
 
@@ -192,12 +189,8 @@ namespace Robowars
             Situation.TakeDamage(damage);
         }
 
-
-        public void Report()
-        {
-            Console.WriteLine($" `{Name}`, Power: {PowerLevel}, Situation: {Situation.Description} {Situation.Feedback}");
-        }
-
+        /// <summary>Writes the status of the robot to the console.</summary>
+        public abstract void Report();
 
         /// <summary>Robot attacks the other robot with a random weapon, if the situation allows.</summary>
         public void Attack(Robot other)
@@ -219,99 +212,143 @@ namespace Robowars
         {
             Situation.Ready();
         }
+    }
 
-        #endregion
-
-        #region Situation
-        /// <summary>
-        /// Represents a Situation a robot can have; 
-        /// Each method is a transition to a different situation, false is returned if the transition cannot be completed.
-        /// </summary>
-        public abstract class RobotSituation
+    public class Terminator : Robot
+    {
+        public int Mark { get; private set; }
+        internal Terminator(IEnumerable<Weapon> weapons, int mark) : base(weapons)
         {
-            private RobotSituation() { }
-            public RobotSituation(Robot context, string feedback = "")
-            {
-                Context = context;
-                Feedback = feedback;
-            }
-            public Robot Context { get; private set; }
-            public abstract bool Ready();
-            public abstract bool Attack();
-            public abstract bool Deactivate();
-            public void TakeDamage(int damage)
-            {
-                Context.PowerLevel = Math.Max(0, Context.PowerLevel - damage); //Prevent negative health.
-                if (Context.PowerLevel == 0)
-                {
-                    Destroy($",Damaged beyond repair!!");
-                }
-            }
-            protected abstract bool Destroy(string reason);
-            public string Feedback { get; protected set; }
-
-            public virtual string Description => (this.GetType().Name);
+            Mark = mark;
+            Name = $"T{mark} unit";
         }
 
-
-        internal class Active : RobotSituation
+        public override void Report()
         {
+            ConsoleColor previousForeground = Console.ForegroundColor;
+            ConsoleColor previousBackground = Console.BackgroundColor;
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine($" `{Name}`, Power: {PowerLevel}, objective: {Situation.Description} {Situation.Feedback}");
 
-            public Active(Robot context, string feedback = "") : base(context, feedback) { }
+            Console.ForegroundColor = previousForeground;
+            Console.BackgroundColor = previousBackground;
+        }
+    }
 
-            public override bool Ready() { Feedback = "Already Activated."; return true; }
-
-            public override bool Deactivate() { Context.Situation = new Standby(Context); return true; }
-
-            protected override bool Destroy(String reason) { Context.Situation = new Destroyed(Context, reason); return true; }
-
-            public override bool Attack() { Context.Situation = new Attacking(Context); return true; }
-
+    public class Miner : Robot
+    {
+        public ConsoleColor Color { get; private set; }
+        public DayOfWeek day { get; private set; }
+        internal Miner(IEnumerable<Weapon> weapons, ConsoleColor color, DayOfWeek day) : base(weapons)
+        {
+            Color = color;
+            Name = $"Mining Robot({color}-{day})";
         }
 
-        internal class Attacking : Active
+        public override void Report()
         {
-            public Attacking(Robot context, string feedback = "") : base(context, feedback) { }
-
-            public override bool Ready() { Context.Situation = new Active(Context); return true; }
-
-            public override bool Attack() { Feedback = "Cannot attack twice."; return false; }
+            ConsoleColor previous = Console.ForegroundColor;
+            Console.ForegroundColor = Color;
+            Console.WriteLine($" `{Name}`, Power: {PowerLevel}, status: {Situation.Description} {Situation.Feedback}");
+            Console.ForegroundColor = previous;
         }
-
-        internal class Standby : RobotSituation
-        {
-            public Standby(Robot context, string feedback = "") : base(context, feedback) { }
-
-            public override bool Ready() { Context.Situation = new Active(Context); return true; }
-
-            public override bool Deactivate() { Feedback = "Already deactivated."; return false; }
-
-            protected override bool Destroy(String reason) { Context.Situation = new Destroyed(Context, reason); return true; }
-
-            public override bool Attack() { Feedback = "Cannot move when in standby"; return true; }
-
-        }
-
-        internal class Destroyed : RobotSituation
-        {
-            public Destroyed(Robot context, string feedback) : base(context, feedback) { }
-
-            public override bool Ready() { Feedback = "Destroyed, cannot reactivate."; return false; }
-
-            public override bool Deactivate() { Feedback = "Destroyed, cannot deactivate."; return false; }
-
-            public override bool Attack() { Feedback = "Destroyed, cannot attack."; return false; }
-
-            protected override bool Destroy(string reason) { Feedback = "Already Destroyed."; return false; }
-        }
-        #endregion
-
-
     }
 
 
+    #endregion
+
+    #region Situation
+    /// <summary>
+    /// Represents a Situation a robot can have; 
+    /// Each method is a transition to a different situation, false is returned if the transition cannot be completed.
+    /// </summary>
+    public abstract class RobotSituation
+    {
+        private RobotSituation() { }
+        public RobotSituation(Robot context, string feedback = "")
+        {
+            Context = context;
+            Feedback = feedback;
+        }
+        public Robot Context { get; private set; }
+        public abstract bool Ready();
+        public abstract bool Attack();
+        public abstract bool Deactivate();
+        public void TakeDamage(int damage)
+        {
+            Context.PowerLevel = Math.Max(0, Context.PowerLevel - damage); //Prevent negative health.
+            if (Context.PowerLevel == 0)
+            {
+                Destroy($",Damaged beyond repair!!");
+            }
+        }
+        protected abstract bool Destroy(string reason);
+        public string Feedback { get; protected set; }
+
+        public virtual string Description => (this.GetType().Name);
+    }
+
+
+    internal class Active : RobotSituation
+    {
+
+        public Active(Robot context, string feedback = "") : base(context, feedback) { }
+
+        public override bool Ready() { Feedback = "Already Activated."; return true; }
+
+        public override bool Deactivate() { Context.Situation = new Standby(Context); return true; }
+
+        protected override bool Destroy(String reason) { Context.Situation = new Destroyed(Context, reason); return true; }
+
+        public override bool Attack() { Context.Situation = new Attacking(Context); return true; }
+
+    }
+
+    internal class Attacking : Active
+    {
+        public Attacking(Robot context, string feedback = "") : base(context, feedback) { }
+
+        public override bool Ready() { Context.Situation = new Active(Context); return true; }
+
+        public override bool Attack() { Feedback = "Cannot attack twice."; return false; }
+    }
+
+    internal class Standby : RobotSituation
+    {
+        public Standby(Robot context, string feedback = "") : base(context, feedback) { }
+
+        public override bool Ready() { Context.Situation = new Active(Context); return true; }
+
+        public override bool Deactivate() { Feedback = "Already deactivated."; return false; }
+
+        protected override bool Destroy(String reason) { Context.Situation = new Destroyed(Context, reason); return true; }
+
+        public override bool Attack() { Feedback = "Cannot move when in standby"; return true; }
+
+    }
+
+    internal class Destroyed : RobotSituation
+    {
+        public Destroyed(Robot context, string feedback) : base(context, feedback) { }
+
+        public override bool Ready() { Feedback = "Destroyed, cannot reactivate."; return false; }
+
+        public override bool Deactivate() { Feedback = "Destroyed, cannot deactivate."; return false; }
+
+        public override bool Attack() { Feedback = "Destroyed, cannot attack."; return false; }
+
+        protected override bool Destroy(string reason) { Feedback = "Already Destroyed."; return false; }
+    }
+    #endregion
+
+
+
+
+    /// <summary>Defines a top level interface for a weapon.</summary>
     public abstract class Weapon
     {
+        /// <summary>Using the weapon drains this amount of power.</summary>
         public abstract int PowerDrain { get; }
 
         public string Name { get; set; }
@@ -323,9 +360,11 @@ namespace Robowars
             return Damage.Get();
         }
 
+        /// <summary>Defines a random damage between <see cref="Min"/> and <see cref="Max"/>.</summary>
         public class DamageRating
         {
             private Random random = new Random();
+
             public DamageRating(int min, int max)
             {
                 if (min > max || min < 0 || max < 0)
@@ -333,8 +372,11 @@ namespace Robowars
                 Min = min;
                 Max = max;
             }
+
             public int Min { get; private set; }
             public int Max { get; private set; }
+
+            /// <summary>Gets a new random damage between <see cref="Min"/> and <see cref="Max"/>.</summary>
             internal int Get()
             {
                 return random.Next(Min, Max);
@@ -363,10 +405,10 @@ namespace Robowars
         public override int PowerDrain => 2;
     }
 
+    /// <summary>Represents an enchancement of a <see cref="Weapon"/>, by transparently wrapping the weapon while also implementing its interface.</summary>
     public abstract class WeaponEnhancement : Weapon
     {
-
-        public Weapon EnhancedWeapon { get;  set; }
+        public Weapon EnhancedWeapon { get; set; }
 
         public override int GetDamage()
         {
@@ -395,6 +437,7 @@ namespace Robowars
     {
         public double BonusFactor { get; private set; }
 
+        /// <summary>Powerdrain increases slightly exponentially with stronger weapons.</summary>
         public override int PowerDrain => (int)Math.Round(EnhancedWeapon.PowerDrain * Math.Pow(BonusFactor, 1.2));
 
         public PercentageBonusDamageWeapon(Weapon weapontToEnhance, int percentBonus)
@@ -416,8 +459,7 @@ namespace Robowars
 
         private WeaponUpgradeSpecifier(Weapon weapon)
         {
-            _weapon = Activator.CreateInstance(weapon.GetType()) as Weapon;
-            //Create a fresh version of the weapon.
+            _weapon = weapon;
         }
 
         public static WeaponUpgradeSpecifier FromWeapon(Weapon baseWeapon)
@@ -454,48 +496,38 @@ namespace Robowars
         }
     }
 
+    /// <summary>Represents logic regarding how specific robots may be produced. </summary>
     public abstract class RobotAssembler
     {
         /// <summary>Creates a new robot.</summary>
         public Robot AssembleRobot()
         {
-            Robot robot = new Robot(Name(), CreateWeapons());
-            return robot;
+            return CreateRobot();
         }
-
-        /// <summary>Returns the name for a newly created robot.</summary>
-        protected abstract string Name();
-
         /// <summary>Creates weaponry for the robot.</summary>
-        protected abstract List<Weapon> CreateWeapons();
+        protected abstract Robot CreateRobot();
     }
 
 
     /// <summary>Creates terminator robots</summary>
     public class SkyNet : RobotAssembler
     {
-        static SkyNet _instance = new SkyNet();
-        int _mark = 2000;
+        private static readonly SkyNet _instance = new SkyNet(); //There is only one SkyNet.
+        const int start = 2000;
+        int _mark = start;
 
         private SkyNet() { } //Do not allow direct instantiation.
 
-        public static SkyNet Instance { get { return _instance; } }
+        public static SkyNet Instance => _instance;
 
-        protected override List<Weapon> CreateWeapons()
+        protected override Robot CreateRobot()
         {
-            var turboLaser = WeaponUpgradeSpecifier.FromWeapon(new Laser()).UpgradeByPercentage(50).Named("TurboLaser").Build();
-            var laser = WeaponUpgradeSpecifier.FromWeapon(new Laser()).UpgradeByAmount(5).Named("LaserShotgun").Build();
+            int upgrades = _mark - start; //Every successive generation of terminator is more powerful.
 
-            return new List<Weapon>()
-            {
-                turboLaser,
-                laser
-            };
-        }
+            var turboLaser = WeaponUpgradeSpecifier.FromWeapon(new Laser()).UpgradeByPercentage(20+ upgrades).Named("TurboLaser").Build();
+            var laser = WeaponUpgradeSpecifier.FromWeapon(new Laser()).UpgradeByAmount(upgrades).Named("LaserShotgun").Build();
 
-        protected override string Name()
-        {
-            return $"T{_mark++} terminator";
+            return new Terminator(new List<Weapon>() { turboLaser, laser },_mark++);
         }
     }
 
@@ -503,20 +535,16 @@ namespace Robowars
     /// <summary>Creates friendly mining robots</summary>
     public class MiningRobotMaker : RobotAssembler
     {
-        protected override List<Weapon> CreateWeapons()
+        protected override Robot CreateRobot()
         {
-            return new List<Weapon>() { new Hammer(), new Hammer(), new Laser() };
-        }
+            Array colors = Enum.GetValues(typeof(ConsoleColor));
+            ConsoleColor color = (ConsoleColor)colors.GetValue(new Random().Next(colors.Length));
+            color = (color == ConsoleColor.Black) ? ConsoleColor.White : color;
 
-        protected override string Name()
-        {
             Array days = Enum.GetValues(typeof(DayOfWeek));
-            string day = days.GetValue(new Random().Next(days.Length)).ToString();
+            DayOfWeek day = (DayOfWeek)days.GetValue(new Random().Next(days.Length));
 
-            Array colors = Enum.GetValues(typeof(System.Drawing.KnownColor));
-            string color = colors.GetValue(new Random().Next(colors.Length)).ToString();
-
-            return $"MiningRobot({color}-{day})";
+            return new Miner(new List<Weapon>() { new Hammer(), new Hammer(), new Laser() }, color, day);
         }
     }
 }

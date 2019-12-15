@@ -1,0 +1,4 @@
+<map id="Robowars.Standby" name="Robowars.Standby">
+<area shape="rect" id="node1" title=" " alt="" coords="5,248,136,384"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_situation.html" title="Represents a Situation a robot can have; Each method is a transition to a different situation,..." alt="" coords="7,5,134,200"/>
+</map>

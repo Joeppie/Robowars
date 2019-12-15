@@ -1,5 +1,5 @@
 <map id="Robowars.Contest.Fight" name="Robowars.Contest.Fight">
 <area shape="rect" id="node1" title=" " alt="" coords="5,13,167,39"/>
 <area shape="rect" id="node2" href="$class_robowars_1_1_robot.html#ae41ce01299fe98b573362be9c76172ee" title=" " alt="" coords="215,5,388,47"/>
-<area shape="rect" id="node3" href="$class_robowars_1_1_robot_1_1_robot_situation.html#a432be630bd8891af2e1afd4bac43793c" title=" " alt="" coords="436,5,647,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robot_situation.html#a8082d02e94cff6610c98697d756bf719" title=" " alt="" coords="436,5,608,47"/>
 </map>

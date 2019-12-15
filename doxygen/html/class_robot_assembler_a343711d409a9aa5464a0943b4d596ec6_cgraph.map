@@ -1,0 +1,4 @@
+<map id="RobotAssembler.AssembleRobot" name="RobotAssembler.AssembleRobot">
+<area shape="rect" id="node1" title="Creates a new robot." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node2" href="$class_robot_assembler.html#ad6eeb1718d47ea3a103ed3ccd2930d00" title="Creates weaponry for the robot." alt="" coords="268,5,463,32"/>
+</map>

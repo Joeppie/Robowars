@@ -1,0 +1,7 @@
+<map id="Robowars.RobotSituation.Ready" name="Robowars.RobotSituation.Ready">
+<area shape="rect" id="node1" title=" " alt="" coords="892,5,1064,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot.html#ae41ce01299fe98b573362be9c76172ee" title=" " alt="" coords="671,5,844,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_contest.html#aa78400fb2b86f1d4b6e963581fb0b3f1" title=" " alt="" coords="461,13,623,39"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_contest.html#abf6b758bc8ca3b0a5c8e82d95154014a" title="Shows a menu where the user can select a command to organize and initiate a fight" alt="" coords="217,13,413,39"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_program.html#af46e692d0f1e92dd1bae9ccb6daa191b" title=" " alt="" coords="5,13,169,39"/>
+</map>

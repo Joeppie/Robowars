@@ -15,7 +15,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Robowars.cs" line="11" column="21" bodyfile="Robowars.cs" bodystart="11" bodyend="15"/>
-        <references refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_robowars_8cs" startline="48" endline="100">Robowars.Contest.ShowMenu</references>
+        <references refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_robowars_8cs" startline="47" endline="98">Robowars.Contest.ShowMenu</references>
       </memberdef>
       </sectiondef>
     <briefdescription>

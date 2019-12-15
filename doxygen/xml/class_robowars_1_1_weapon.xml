@@ -13,12 +13,13 @@
         <argsstring></argsstring>
         <name>PowerDrain</name>
         <briefdescription>
+<para>Using the weapon drains this amount of power. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="313" column="29" bodyfile="Robowars.cs" bodystart="313" bodyend="313"/>
+        <location file="Robowars.cs" line="352" column="29" bodyfile="Robowars.cs" bodystart="352" bodyend="352"/>
       </memberdef>
       <memberdef kind="property" id="class_robowars_1_1_weapon_1a86a3f54c2db9108435e0468128233bac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -31,10 +32,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="315" column="23" bodyfile="Robowars.cs" bodystart="315" bodyend="315"/>
-        <referencedby refid="class_robowars_1_1_laser_1ab5d4383da98f29cc5379572baca76fdc" compoundref="_robowars_8cs" startline="345" endline="349">Robowars.Laser.Laser</referencedby>
-        <referencedby refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" compoundref="_robowars_8cs" startline="356" endline="360">Robowars.Hammer.Hammer</referencedby>
-        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" compoundref="_robowars_8cs" startline="448" endline="452">Robowars.WeaponUpgradeSpecifier.Build</referencedby>
+        <location file="Robowars.cs" line="354" column="23" bodyfile="Robowars.cs" bodystart="354" bodyend="354"/>
+        <referencedby refid="class_robowars_1_1_laser_1ab5d4383da98f29cc5379572baca76fdc" compoundref="_robowars_8cs" startline="389" endline="393">Robowars.Laser.Laser</referencedby>
+        <referencedby refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" compoundref="_robowars_8cs" startline="400" endline="404">Robowars.Hammer.Hammer</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" compoundref="_robowars_8cs" startline="492" endline="496">Robowars.WeaponUpgradeSpecifier.Build</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
         <type><ref refid="class_robowars_1_1_weapon_1_1_damage_rating" kindref="compound">DamageRating</ref></type>
@@ -47,10 +48,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="317" column="41" bodyfile="Robowars.cs" bodystart="317" bodyend="317"/>
-        <referencedby refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="319" endline="322">Robowars.Weapon.GetDamage</referencedby>
-        <referencedby refid="class_robowars_1_1_laser_1ab5d4383da98f29cc5379572baca76fdc" compoundref="_robowars_8cs" startline="345" endline="349">Robowars.Laser.Laser</referencedby>
-        <referencedby refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" compoundref="_robowars_8cs" startline="356" endline="360">Robowars.Hammer.Hammer</referencedby>
+        <location file="Robowars.cs" line="356" column="41" bodyfile="Robowars.cs" bodystart="356" bodyend="356"/>
+        <referencedby refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="358" endline="361">Robowars.Weapon.GetDamage</referencedby>
+        <referencedby refid="class_robowars_1_1_laser_1ab5d4383da98f29cc5379572baca76fdc" compoundref="_robowars_8cs" startline="389" endline="393">Robowars.Laser.Laser</referencedby>
+        <referencedby refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" compoundref="_robowars_8cs" startline="400" endline="404">Robowars.Hammer.Hammer</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -68,14 +69,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="319" column="28" bodyfile="Robowars.cs" bodystart="319" bodyend="322"/>
-        <references refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" compoundref="_robowars_8cs" startline="317" endline="317">Robowars.Weapon.Damage</references>
-        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="336" endline="339">Robowars.Weapon.DamageRating.Get</references>
-        <referencedby refid="class_robowars_1_1_weapon_enhancement_1a6495deceb97d01af4725287e37fad853" compoundref="_robowars_8cs" startline="369" endline="372">Robowars.WeaponEnhancement.GetDamage</referencedby>
-        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="386" endline="389">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
+        <location file="Robowars.cs" line="358" column="28" bodyfile="Robowars.cs" bodystart="358" bodyend="361"/>
+        <references refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" compoundref="_robowars_8cs" startline="356" endline="356">Robowars.Weapon.Damage</references>
+        <references refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" compoundref="_robowars_8cs" startline="380" endline="383">Robowars.Weapon.DamageRating.Get</references>
+        <referencedby refid="class_robowars_1_1_weapon_enhancement_1a6495deceb97d01af4725287e37fad853" compoundref="_robowars_8cs" startline="413" endline="416">Robowars.WeaponEnhancement.GetDamage</referencedby>
+        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="430" endline="433">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Defines a top level interface for a weapon. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -121,7 +123,7 @@
         <link refid="class_robowars_1_1_weapon"/>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="312" column="1" bodyfile="Robowars.cs" bodystart="311" bodyend="341"/>
+    <location file="Robowars.cs" line="350" column="1" bodyfile="Robowars.cs" bodystart="349" bodyend="385"/>
     <listofallmembers>
       <member refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" prot="package" virt="non-virtual"><scope>Robowars::Weapon</scope><name>Damage</name></member>
       <member refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" prot="public" virt="virtual"><scope>Robowars::Weapon</scope><name>GetDamage</name></member>

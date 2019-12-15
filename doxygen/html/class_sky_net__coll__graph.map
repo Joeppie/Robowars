@@ -1,0 +1,4 @@
+<map id="SkyNet" name="SkyNet">
+<area shape="rect" id="node1" title="Creates terminator robots" alt="" coords="16,147,129,253"/>
+<area shape="rect" id="node2" href="$class_robot_assembler.html" title="Represents logic regarding how specific robots may be produced." alt="" coords="5,5,140,97"/>
+</map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['createweapons_102',['CreateWeapons',['../class_robowars_1_1_robot_assembler.html#aad9c5cff1aab535f762950f7a031d51f',1,'Robowars.RobotAssembler.CreateWeapons()'],['../class_robowars_1_1_sky_net.html#ade22c7f2ef5b04b241d485a7dcc44312',1,'Robowars.SkyNet.CreateWeapons()'],['../class_robowars_1_1_mining_robot_maker.html#a05f71d88ab7da96a60ee10daeb3e26fb',1,'Robowars.MiningRobotMaker.CreateWeapons()']]]
+  ['createrobot_110',['CreateRobot',['../class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a',1,'Robowars.RobotAssembler.CreateRobot()'],['../class_robowars_1_1_sky_net.html#a76aa41e68d9b4430628f687c63b32331',1,'Robowars.SkyNet.CreateRobot()'],['../class_robowars_1_1_mining_robot_maker.html#abeffc24ed40c904c9b0630cf0ad6c2f5',1,'Robowars.MiningRobotMaker.CreateRobot()']]]
 ];

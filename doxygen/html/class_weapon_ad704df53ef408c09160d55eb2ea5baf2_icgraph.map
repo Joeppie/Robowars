@@ -1,0 +1,5 @@
+<map id="Weapon.GetDamage" name="Weapon.GetDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="276,35,419,61"/>
+<area shape="rect" id="node2" href="$class_weapon_enhancement.html#a05d50c87819bda93c3a041181e993dd0" title=" " alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node3" href="$class_fixed_damage_bonus_weapon.html#a7ad975c598955733f4278e90538329db" title=" " alt="" coords="11,57,223,98"/>
+</map>

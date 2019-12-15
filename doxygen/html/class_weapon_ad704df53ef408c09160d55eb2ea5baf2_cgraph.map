@@ -1,0 +1,4 @@
+<map id="Weapon.GetDamage" name="Weapon.GetDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$class_weapon_1_1_damage_rating.html#ac62558ba51c8e83148a3d38317f5d228" title="Gets a new random damage between Min and Max." alt="" coords="196,5,380,32"/>
+</map>

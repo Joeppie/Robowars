@@ -95,6 +95,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8b2ec49818f63f928f423961276c78cf"><td class="memItemLeft" align="right" valign="top">override int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a8b2ec49818f63f928f423961276c78cf">PowerDrain</a> =&gt; (int)Math.Round(EnhancedWeapon.PowerDrain * Math.Pow(<a class="el" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">BonusFactor</a>, 1.2))</td></tr>
+<tr class="memdesc:a8b2ec49818f63f928f423961276c78cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Powerdrain increases slightly exponentially with stronger weapons.  <a href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a8b2ec49818f63f928f423961276c78cf">More...</a><br /></td></tr>
 <tr class="separator:a8b2ec49818f63f928f423961276c78cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -106,6 +107,7 @@ Properties</h2></td></tr>
 <tr class="separator:a55e917dd93fd4c162bd479984602c2d2 inherit properties_class_robowars_1_1_weapon_enhancement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_robowars_1_1_weapon"><td colspan="2" onclick="javascript:toggleInherit('properties_class_robowars_1_1_weapon')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_robowars_1_1_weapon.html">Robowars.Weapon</a></td></tr>
 <tr class="memitem:a22e3eae14b728ec459cf98136f62ce53 inherit properties_class_robowars_1_1_weapon"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_weapon.html#a22e3eae14b728ec459cf98136f62ce53">PowerDrain</a><code> [get]</code></td></tr>
+<tr class="memdesc:a22e3eae14b728ec459cf98136f62ce53 inherit properties_class_robowars_1_1_weapon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using the weapon drains this amount of power.  <a href="class_robowars_1_1_weapon.html#a22e3eae14b728ec459cf98136f62ce53">More...</a><br /></td></tr>
 <tr class="separator:a22e3eae14b728ec459cf98136f62ce53 inherit properties_class_robowars_1_1_weapon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86a3f54c2db9108435e0468128233bac inherit properties_class_robowars_1_1_weapon"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_robowars_1_1_weapon.html#a86a3f54c2db9108435e0468128233bac">Name</a><code> [get, set]</code></td></tr>
 <tr class="separator:a86a3f54c2db9108435e0468128233bac inherit properties_class_robowars_1_1_weapon"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,7 +116,7 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00392">392</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00436">436</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3425be3a4e1c75cba4825f9e9aa18236"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3425be3a4e1c75cba4825f9e9aa18236">&#9670;&nbsp;</a></span>PercentageBonusDamageWeapon()</h2>
@@ -142,11 +144,11 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00398">398</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        {</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            <a class="code" href="class_robowars_1_1_weapon_enhancement.html#a55e917dd93fd4c162bd479984602c2d2">EnhancedWeapon</a> = weapontToEnhance;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <a class="code" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">BonusFactor</a> = 1 + percentBonus / 100d;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00443">443</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        {</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;            <a class="code" href="class_robowars_1_1_weapon_enhancement.html#a55e917dd93fd4c162bd479984602c2d2">EnhancedWeapon</a> = weapontToEnhance;</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;            <a class="code" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">BonusFactor</a> = 1 + percentBonus / 100d;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -176,10 +178,10 @@ Properties</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_robowars_1_1_weapon_enhancement.html#a6495deceb97d01af4725287e37fad853">Robowars.WeaponEnhancement</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00403">403</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        {</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">int</span>)Math.Round(base.GetDamage() * <a class="code" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">BonusFactor</a>);</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00448">448</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        {</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">int</span>)Math.Round(base.GetDamage() * <a class="code" href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">BonusFactor</a>);</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -196,7 +198,9 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00396">396</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<p>Powerdrain increases slightly exponentially with stronger weapons. </p>
+
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00441">441</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
 
 </div>
 </div>
@@ -221,8 +225,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00394">394</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; }</div>
+<p class="definition">Definition at line <a class="el" href="_robowars_8cs_source.html#l00438">438</a> of file <a class="el" href="_robowars_8cs_source.html">Robowars.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">private</span> <span class="keyword">set</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -230,8 +234,8 @@ Properties</h2></td></tr>
 <li><a class="el" href="_robowars_8cs_source.html">Robowars.cs</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="aclass_robowars_1_1_percentage_bonus_damage_weapon_html_a673a52645f1d5daffe0663ad899c95c7"><div class="ttname"><a href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">Robowars.PercentageBonusDamageWeapon.BonusFactor</a></div><div class="ttdeci">double BonusFactor</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00394">Robowars.cs:394</a></div></div>
-<div class="ttc" id="aclass_robowars_1_1_weapon_enhancement_html_a55e917dd93fd4c162bd479984602c2d2"><div class="ttname"><a href="class_robowars_1_1_weapon_enhancement.html#a55e917dd93fd4c162bd479984602c2d2">Robowars.WeaponEnhancement.EnhancedWeapon</a></div><div class="ttdeci">Weapon EnhancedWeapon</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00367">Robowars.cs:367</a></div></div>
+<div class="ttc" id="aclass_robowars_1_1_percentage_bonus_damage_weapon_html_a673a52645f1d5daffe0663ad899c95c7"><div class="ttname"><a href="class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7">Robowars.PercentageBonusDamageWeapon.BonusFactor</a></div><div class="ttdeci">double BonusFactor</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00438">Robowars.cs:438</a></div></div>
+<div class="ttc" id="aclass_robowars_1_1_weapon_enhancement_html_a55e917dd93fd4c162bd479984602c2d2"><div class="ttname"><a href="class_robowars_1_1_weapon_enhancement.html#a55e917dd93fd4c162bd479984602c2d2">Robowars.WeaponEnhancement.EnhancedWeapon</a></div><div class="ttdeci">Weapon EnhancedWeapon</div><div class="ttdef"><b>Definition:</b> <a href="_robowars_8cs_source.html#l00411">Robowars.cs:411</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_weapon" kind="class" language="C#" prot="public">
+    <compoundname>Weapon</compoundname>
+    <derivedcompoundref refid="class_hammer" prot="public" virt="non-virtual">Hammer</derivedcompoundref>
+    <derivedcompoundref refid="class_laser" prot="public" virt="non-virtual">Laser</derivedcompoundref>
+    <derivedcompoundref refid="class_weapon_enhancement" prot="public" virt="non-virtual">WeaponEnhancement</derivedcompoundref>
+    <innerclass refid="class_weapon_1_1_damage_rating" prot="public">Weapon::DamageRating</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_weapon_1a49e2695bdc1760cb9cc3f7b2871605ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract int</type>
+        <definition>abstract int Weapon.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="352" column="25" bodyfile="Robowars.cs" bodystart="352" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="property" id="class_weapon_1a98dfe2456f052debf1724b96d0b3a5c5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Weapon.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="354" column="19" bodyfile="Robowars.cs" bodystart="354" bodyend="354"/>
+        <referencedby refid="class_laser_1a78dbc9f223796e02cea218a47d5d251c" compoundref="_robowars_8cs" startline="389" endline="393">Laser.Laser</referencedby>
+        <referencedby refid="class_hammer_1a84f133f0c4bd28ac14bee89558a92bad" compoundref="_robowars_8cs" startline="400" endline="404">Hammer.Hammer</referencedby>
+        <referencedby refid="class_weapon_upgrade_specifier_1a2194cf48b47b9e9ad1d51bb14e17cdc4" compoundref="_robowars_8cs" startline="492" endline="496">WeaponUpgradeSpecifier.Build</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_weapon_1ab45e8639e7cfda71f4049db9e56d276f" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="class_weapon_1_1_damage_rating" kindref="compound">DamageRating</ref></type>
+        <definition>DamageRating Weapon.Damage</definition>
+        <argsstring></argsstring>
+        <name>Damage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="356" column="37" bodyfile="Robowars.cs" bodystart="356" bodyend="356"/>
+        <referencedby refid="class_weapon_1ad704df53ef408c09160d55eb2ea5baf2" compoundref="_robowars_8cs" startline="358" endline="361">GetDamage</referencedby>
+        <referencedby refid="class_laser_1a78dbc9f223796e02cea218a47d5d251c" compoundref="_robowars_8cs" startline="389" endline="393">Laser.Laser</referencedby>
+        <referencedby refid="class_hammer_1a84f133f0c4bd28ac14bee89558a92bad" compoundref="_robowars_8cs" startline="400" endline="404">Hammer.Hammer</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_weapon_1ad704df53ef408c09160d55eb2ea5baf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Weapon.GetDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamage</name>
+        <reimplementedby refid="class_weapon_enhancement_1a05d50c87819bda93c3a041181e993dd0">GetDamage</reimplementedby>
+        <reimplementedby refid="class_fixed_damage_bonus_weapon_1a7ad975c598955733f4278e90538329db">GetDamage</reimplementedby>
+        <reimplementedby refid="class_percentage_bonus_damage_weapon_1af4fc99a32e5cc41a1a0b04ac8e7c5a71">GetDamage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="358" column="24" bodyfile="Robowars.cs" bodystart="358" bodyend="361"/>
+        <references refid="class_weapon_1ab45e8639e7cfda71f4049db9e56d276f" compoundref="_robowars_8cs" startline="356" endline="356">Damage</references>
+        <references refid="class_weapon_1_1_damage_rating_1ac62558ba51c8e83148a3d38317f5d228" compoundref="_robowars_8cs" startline="380" endline="383">Weapon.DamageRating.Get</references>
+        <referencedby refid="class_weapon_enhancement_1a05d50c87819bda93c3a041181e993dd0" compoundref="_robowars_8cs" startline="413" endline="416">WeaponEnhancement.GetDamage</referencedby>
+        <referencedby refid="class_fixed_damage_bonus_weapon_1a7ad975c598955733f4278e90538329db" compoundref="_robowars_8cs" startline="430" endline="433">FixedDamageBonusWeapon.GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines a top level interface for a weapon. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>PercentageBonusDamageWeapon</label>
+        <link refid="class_percentage_bonus_damage_weapon"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Hammer</label>
+        <link refid="class_hammer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+      </node>
+      <node id="5">
+        <label>FixedDamageBonusWeapon</label>
+        <link refid="class_fixed_damage_bonus_weapon"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>WeaponEnhancement</label>
+        <link refid="class_weapon_enhancement"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Laser</label>
+        <link refid="class_laser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Weapon</label>
+        <link refid="class_weapon"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="351" column="1" bodyfile="Robowars.cs" bodystart="350" bodyend="385"/>
+    <listofallmembers>
+      <member refid="class_weapon_1ab45e8639e7cfda71f4049db9e56d276f" prot="package" virt="non-virtual"><scope>Weapon</scope><name>Damage</name></member>
+      <member refid="class_weapon_1ad704df53ef408c09160d55eb2ea5baf2" prot="public" virt="virtual"><scope>Weapon</scope><name>GetDamage</name></member>
+      <member refid="class_weapon_1a98dfe2456f052debf1724b96d0b3a5c5" prot="public" virt="non-virtual"><scope>Weapon</scope><name>Name</name></member>
+      <member refid="class_weapon_1a49e2695bdc1760cb9cc3f7b2871605ef" prot="public" virt="non-virtual"><scope>Weapon</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['max_154',['Max',['../class_robowars_1_1_weapon_1_1_damage_rating.html#abcf7f629bf1a86be4d1d42483d7e70f9',1,'Robowars::Weapon::DamageRating']]],
-  ['min_155',['Min',['../class_robowars_1_1_weapon_1_1_damage_rating.html#afb9a2129b61e2a8f5afe1b0c6f7bf9a1',1,'Robowars::Weapon::DamageRating']]]
+  ['name_169',['Name',['../class_robowars_1_1_robot.html#a8c28af718d772df51e33a5c3b31e3cd6',1,'Robowars.Robot.Name()'],['../class_robowars_1_1_weapon.html#a86a3f54c2db9108435e0468128233bac',1,'Robowars.Weapon.Name()']]]
 ];

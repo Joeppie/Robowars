@@ -11,7 +11,7 @@
 <polygon fill="white" stroke="none" points="-4,4 -4,-129.5 482,-129.5 482,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node"><title>Node0</title>
-<g id="a_node1"><a xlink:href="class_robowars_1_1_weapon.html" target="_top" xlink:title=" ">
+<g id="a_node1"><a xlink:href="class_robowars_1_1_weapon.html" target="_top" xlink:title="Defines a top level interface for a weapon.">
 <polygon fill="white" stroke="black" points="0,-68 0,-87 98,-87 98,-68 0,-68"/>
 <text text-anchor="middle" x="49" y="-75" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Weapon</text>
 </a>
@@ -45,7 +45,7 @@
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
-<g id="a_node4"><a xlink:href="class_robowars_1_1_weapon_enhancement.html" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="class_robowars_1_1_weapon_enhancement.html" target="_top" xlink:title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ...">
 <polygon fill="white" stroke="black" points="134,-30 134,-49 292,-49 292,-30 134,-30"/>
 <text text-anchor="middle" x="213" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.WeaponEnhancement</text>
 </a>

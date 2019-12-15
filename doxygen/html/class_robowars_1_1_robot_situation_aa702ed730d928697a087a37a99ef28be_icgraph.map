@@ -1,0 +1,6 @@
+<map id="Robowars.RobotSituation.Destroy" name="Robowars.RobotSituation.Destroy">
+<area shape="rect" id="node1" title=" " alt="" coords="677,5,849,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_situation.html#a8ac2050f72285d2b8db5f58259af3d74" title=" " alt="" coords="457,5,629,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robot.html#a9cbd51f30a41c882ad9fd152a13646e9" title=" " alt="" coords="212,13,409,39"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robot.html#a76a6fccb34fe3482c0883712abff7622" title="Robot attacks the other robot with a random weapon, if the situation allows." alt="" coords="5,13,164,39"/>
+</map>

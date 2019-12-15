@@ -1,0 +1,5 @@
+<map id="Robowars.Robot" name="Robowars.Robot">
+<area shape="rect" id="node1" title=" " alt="" coords="67,5,211,259"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_miner.html" title=" " alt="" coords="5,307,120,413"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_terminator.html" title=" " alt="" coords="144,314,288,406"/>
+</map>

@@ -17,11 +17,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="367" column="23" bodyfile="Robowars.cs" bodystart="367" bodyend="367"/>
-        <referencedby refid="class_robowars_1_1_weapon_enhancement_1a6495deceb97d01af4725287e37fad853" compoundref="_robowars_8cs" startline="369" endline="372">Robowars.WeaponEnhancement.GetDamage</referencedby>
-        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a97cf83217bee9b8b078d3a47649faa71" compoundref="_robowars_8cs" startline="381" endline="385">Robowars.FixedDamageBonusWeapon.FixedDamageBonusWeapon</referencedby>
-        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="386" endline="389">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
-        <referencedby refid="class_robowars_1_1_percentage_bonus_damage_weapon_1a3425be3a4e1c75cba4825f9e9aa18236" compoundref="_robowars_8cs" startline="398" endline="402">Robowars.PercentageBonusDamageWeapon.PercentageBonusDamageWeapon</referencedby>
+        <location file="Robowars.cs" line="411" column="23" bodyfile="Robowars.cs" bodystart="411" bodyend="411"/>
+        <referencedby refid="class_robowars_1_1_weapon_enhancement_1a6495deceb97d01af4725287e37fad853" compoundref="_robowars_8cs" startline="413" endline="416">Robowars.WeaponEnhancement.GetDamage</referencedby>
+        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a97cf83217bee9b8b078d3a47649faa71" compoundref="_robowars_8cs" startline="425" endline="429">Robowars.FixedDamageBonusWeapon.FixedDamageBonusWeapon</referencedby>
+        <referencedby refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" compoundref="_robowars_8cs" startline="430" endline="433">Robowars.FixedDamageBonusWeapon.GetDamage</referencedby>
+        <referencedby refid="class_robowars_1_1_percentage_bonus_damage_weapon_1a3425be3a4e1c75cba4825f9e9aa18236" compoundref="_robowars_8cs" startline="443" endline="447">Robowars.PercentageBonusDamageWeapon.PercentageBonusDamageWeapon</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -39,12 +39,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="369" column="29" bodyfile="Robowars.cs" bodystart="369" bodyend="372"/>
-        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="367" endline="367">Robowars.WeaponEnhancement.EnhancedWeapon</references>
-        <references refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="319" endline="322">Robowars.Weapon.GetDamage</references>
+        <location file="Robowars.cs" line="413" column="29" bodyfile="Robowars.cs" bodystart="413" bodyend="416"/>
+        <references refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" compoundref="_robowars_8cs" startline="411" endline="411">Robowars.WeaponEnhancement.EnhancedWeapon</references>
+        <references refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" compoundref="_robowars_8cs" startline="358" endline="361">Robowars.Weapon.GetDamage</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Represents an enchancement of a <ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref>, by transparently wrapping the weapon while also implementing its interface. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -84,7 +85,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="365" column="1" bodyfile="Robowars.cs" bodystart="364" bodyend="373"/>
+    <location file="Robowars.cs" line="410" column="1" bodyfile="Robowars.cs" bodystart="409" bodyend="417"/>
     <listofallmembers>
       <member refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" prot="package" virt="non-virtual"><scope>Robowars::WeaponEnhancement</scope><name>Damage</name></member>
       <member refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" prot="public" virt="non-virtual"><scope>Robowars::WeaponEnhancement</scope><name>EnhancedWeapon</name></member>

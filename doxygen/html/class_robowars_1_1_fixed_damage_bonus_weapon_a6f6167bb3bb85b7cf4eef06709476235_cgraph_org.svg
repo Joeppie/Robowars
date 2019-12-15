@@ -33,7 +33,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f" target="_top" xlink:title="Gets a new random damage between Min and Max.">
 <polygon fill="white" stroke="black" points="375,-6 375,-25 559,-25 559,-6 375,-6"/>
 <text text-anchor="middle" x="467" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">Robowars.Weapon.DamageRating.Get</text>
 </a>

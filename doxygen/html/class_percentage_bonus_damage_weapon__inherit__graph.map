@@ -1,0 +1,5 @@
+<map id="PercentageBonusDamageWeapon" name="PercentageBonusDamageWeapon">
+<area shape="rect" id="node1" title=" " alt="" coords="5,285,247,392"/>
+<area shape="rect" id="node2" href="$class_weapon_enhancement.html" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="51,160,201,237"/>
+<area shape="rect" id="node3" href="$class_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="71,5,181,112"/>
+</map>
