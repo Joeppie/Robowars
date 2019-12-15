@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_robot_assembler" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Robowars::RobotAssembler</compoundname>
+    <derivedcompoundref refid="class_robowars_1_1_mining_robot_maker" prot="public" virt="non-virtual">Robowars.MiningRobotMaker</derivedcompoundref>
+    <derivedcompoundref refid="class_robowars_1_1_sky_net" prot="public" virt="non-virtual">Robowars.SkyNet</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
+        <definition>Robot Robowars.RobotAssembler.AssembleRobot</definition>
+        <argsstring>()</argsstring>
+        <name>AssembleRobot</name>
+        <briefdescription>
+<para>Creates a new robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="458" column="22" bodyfile="Robowars.cs" bodystart="458" bodyend="462"/>
+        <references refid="class_robowars_1_1_robot_assembler_1aad9c5cff1aab535f762950f7a031d51f">Robowars.RobotAssembler.CreateWeapons</references>
+        <references refid="class_robowars_1_1_robot_assembler_1a0a90cc5b9ffa5c85e299159feb8f2ff4">Robowars.RobotAssembler.Name</references>
+        <referencedby refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_robowars_8cs" startline="48" endline="100">Robowars.Contest.ShowMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a0a90cc5b9ffa5c85e299159feb8f2ff4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract string</type>
+        <definition>abstract string Robowars.RobotAssembler.Name</definition>
+        <argsstring>()</argsstring>
+        <name>Name</name>
+        <reimplementedby refid="class_robowars_1_1_sky_net_1a439d243778dff20a079d1e65fd37d393">Name</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_mining_robot_maker_1a8e5c2b423357c2255c2561e60762073f">Name</reimplementedby>
+        <briefdescription>
+<para>Returns the name for a newly created robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="465" column="35"/>
+        <referencedby refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" compoundref="_robowars_8cs" startline="458" endline="462">Robowars.RobotAssembler.AssembleRobot</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1aad9c5cff1aab535f762950f7a031d51f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract List&lt; <ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>abstract List&lt;Weapon&gt; Robowars.RobotAssembler.CreateWeapons</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWeapons</name>
+        <reimplementedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312">CreateWeapons</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_mining_robot_maker_1a05f71d88ab7da96a60ee10daeb3e26fb">CreateWeapons</reimplementedby>
+        <briefdescription>
+<para>Creates weaponry for the robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="468" column="33"/>
+        <referencedby refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" compoundref="_robowars_8cs" startline="458" endline="462">Robowars.RobotAssembler.AssembleRobot</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Robowars.RobotAssembler</label>
+        <link refid="class_robowars_1_1_robot_assembler"/>
+      </node>
+      <node id="3">
+        <label>Robowars.SkyNet</label>
+        <link refid="class_robowars_1_1_sky_net"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Robowars.MiningRobotMaker</label>
+        <link refid="class_robowars_1_1_mining_robot_maker"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.RobotAssembler</label>
+        <link refid="class_robowars_1_1_robot_assembler"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="456" column="1" bodyfile="Robowars.cs" bodystart="455" bodyend="469"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" virt="non-virtual"><scope>Robowars::RobotAssembler</scope><name>AssembleRobot</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1aad9c5cff1aab535f762950f7a031d51f" prot="protected" virt="pure-virtual"><scope>Robowars::RobotAssembler</scope><name>CreateWeapons</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1a0a90cc5b9ffa5c85e299159feb8f2ff4" prot="protected" virt="pure-virtual"><scope>Robowars::RobotAssembler</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

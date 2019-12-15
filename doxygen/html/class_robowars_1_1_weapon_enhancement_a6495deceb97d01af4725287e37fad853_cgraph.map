@@ -1,0 +1,5 @@
+<map id="Robowars.WeaponEnhancement.GetDamage" name="Robowars.WeaponEnhancement.GetDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,220,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapon.html#aa2c866db4e3d5317d1ceda6c29b4dcc4" title=" " alt="" coords="268,13,472,39"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapon_1_1_damage_rating.html#a467baf6e92ccab89e2668032215af28f" title=" " alt="" coords="520,13,765,39"/>
+</map>

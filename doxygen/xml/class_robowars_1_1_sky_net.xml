@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_sky_net" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::SkyNet</compoundname>
+    <basecompoundref refid="class_robowars_1_1_robot_assembler" prot="public" virt="non-virtual">Robowars.RobotAssembler</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_robowars_1_1_sky_net_1ad839bea7bb3e2e6405ef0f39e5d8276c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_robowars_1_1_sky_net" kindref="compound">SkyNet</ref></type>
+        <definition>SkyNet Robowars.SkyNet._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <initializer>= new <ref refid="class_robowars_1_1_sky_net" kindref="compound">SkyNet</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="475" column="23" bodyfile="Robowars.cs" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_robowars_1_1_sky_net_1a18155d15686340e9676ac99b3a469e53" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Robowars.SkyNet._mark</definition>
+        <argsstring></argsstring>
+        <name>_mark</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="476" column="13" bodyfile="Robowars.cs" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_sky_net_1a7b03ef5f82d6c04b3618c26f5dca8cff" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_robowars_1_1_sky_net" kindref="compound">SkyNet</ref></type>
+        <definition>SkyNet Robowars.SkyNet.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="480" column="30" bodyfile="Robowars.cs" bodystart="480" bodyend="480"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_robowars_1_1_sky_net_1afb5b2de327ccc12e642860b07a202f31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.SkyNet.SkyNet</definition>
+        <argsstring>()</argsstring>
+        <name>SkyNet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="478" column="17" bodyfile="Robowars.cs" bodystart="478" bodyend="478"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override List&lt; <ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref> &gt;</type>
+        <definition>override List&lt;Weapon&gt; Robowars.SkyNet.CreateWeapons</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWeapons</name>
+        <reimplements refid="class_robowars_1_1_robot_assembler_1aad9c5cff1aab535f762950f7a031d51f">CreateWeapons</reimplements>
+        <briefdescription>
+<para>Creates weaponry for the robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="482" column="33" bodyfile="Robowars.cs" bodystart="482" bodyend="492"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" compoundref="_robowars_8cs" startline="448" endline="452">Robowars.WeaponUpgradeSpecifier.Build</references>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1a29f230583580074b31ea2b8a4c97292f" compoundref="_robowars_8cs" startline="421" endline="424">Robowars.WeaponUpgradeSpecifier.FromWeapon</references>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1a9ef1475b5fec4f8c3bda35944e5a544a" compoundref="_robowars_8cs" startline="442" endline="446">Robowars.WeaponUpgradeSpecifier.Named</references>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1a38bba5835b9e41aeb5aa0455cee2cdba" compoundref="_robowars_8cs" startline="434" endline="440">Robowars.WeaponUpgradeSpecifier.UpgradeByAmount</references>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1ac2fb273aa6b882466716999a2c9cdf9e" compoundref="_robowars_8cs" startline="426" endline="432">Robowars.WeaponUpgradeSpecifier.UpgradeByPercentage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_sky_net_1a439d243778dff20a079d1e65fd37d393" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override string</type>
+        <definition>override string Robowars.SkyNet.Name</definition>
+        <argsstring>()</argsstring>
+        <name>Name</name>
+        <reimplements refid="class_robowars_1_1_robot_assembler_1a0a90cc5b9ffa5c85e299159feb8f2ff4">Name</reimplements>
+        <briefdescription>
+<para>Returns the name for a newly created robot. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="494" column="35" bodyfile="Robowars.cs" bodystart="494" bodyend="497"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Creates terminator robots </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>RobotAssembler</label>
+        <link refid="class_robowars_1_1_robot_assembler"/>
+      </node>
+      <node id="1">
+        <label>Robowars.SkyNet</label>
+        <link refid="class_robowars_1_1_sky_net"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>RobotAssembler</label>
+        <link refid="class_robowars_1_1_robot_assembler"/>
+      </node>
+      <node id="1">
+        <label>Robowars.SkyNet</label>
+        <link refid="class_robowars_1_1_sky_net"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1" relation="usage">
+          <edgelabel>-_instance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="474" column="1" bodyfile="Robowars.cs" bodystart="473" bodyend="498"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_sky_net_1ad839bea7bb3e2e6405ef0f39e5d8276c" prot="private" virt="non-virtual"><scope>Robowars::SkyNet</scope><name>_instance</name></member>
+      <member refid="class_robowars_1_1_sky_net_1a18155d15686340e9676ac99b3a469e53" prot="private" virt="non-virtual"><scope>Robowars::SkyNet</scope><name>_mark</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" virt="non-virtual"><scope>Robowars::SkyNet</scope><name>AssembleRobot</name></member>
+      <member refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" prot="protected" virt="virtual"><scope>Robowars::SkyNet</scope><name>CreateWeapons</name></member>
+      <member refid="class_robowars_1_1_sky_net_1a7b03ef5f82d6c04b3618c26f5dca8cff" prot="public" virt="non-virtual"><scope>Robowars::SkyNet</scope><name>Instance</name></member>
+      <member refid="class_robowars_1_1_sky_net_1a439d243778dff20a079d1e65fd37d393" prot="protected" virt="virtual"><scope>Robowars::SkyNet</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_sky_net_1afb5b2de327ccc12e642860b07a202f31" prot="private" virt="non-virtual"><scope>Robowars::SkyNet</scope><name>SkyNet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_robowars" kind="namespace" language="C#">
+    <compoundname>Robowars</compoundname>
+    <innerclass refid="class_robowars_1_1_contest" prot="public">Robowars::Contest</innerclass>
+    <innerclass refid="class_robowars_1_1_fixed_damage_bonus_weapon" prot="public">Robowars::FixedDamageBonusWeapon</innerclass>
+    <innerclass refid="class_robowars_1_1_hammer" prot="public">Robowars::Hammer</innerclass>
+    <innerclass refid="class_robowars_1_1_laser" prot="public">Robowars::Laser</innerclass>
+    <innerclass refid="class_robowars_1_1_mining_robot_maker" prot="public">Robowars::MiningRobotMaker</innerclass>
+    <innerclass refid="class_robowars_1_1_percentage_bonus_damage_weapon" prot="public">Robowars::PercentageBonusDamageWeapon</innerclass>
+    <innerclass refid="class_robowars_1_1_program" prot="public">Robowars::Program</innerclass>
+    <innerclass refid="class_robowars_1_1_robot" prot="public">Robowars::Robot</innerclass>
+    <innerclass refid="class_robowars_1_1_robot_assembler" prot="public">Robowars::RobotAssembler</innerclass>
+    <innerclass refid="class_robowars_1_1_sky_net" prot="public">Robowars::SkyNet</innerclass>
+    <innerclass refid="class_robowars_1_1_weapon" prot="public">Robowars::Weapon</innerclass>
+    <innerclass refid="class_robowars_1_1_weapon_enhancement" prot="public">Robowars::WeaponEnhancement</innerclass>
+    <innerclass refid="class_robowars_1_1_weapon_upgrade_specifier" prot="public">Robowars::WeaponUpgradeSpecifier</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Robowars.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

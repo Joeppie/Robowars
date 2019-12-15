@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_hammer" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::Hammer</compoundname>
+    <basecompoundref refid="class_robowars_1_1_weapon" prot="public" virt="non-virtual">Robowars.Weapon</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_robowars_1_1_hammer_1ac4c071b0b05f10d4cc6d8331b18c913c" prot="public" static="no" mutable="no">
+        <type>override int</type>
+        <definition>override int Robowars.Hammer.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <initializer>=&gt; 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="361" column="29" bodyfile="Robowars.cs" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.Hammer.Hammer</definition>
+        <argsstring>()</argsstring>
+        <name>Hammer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="356" column="16" bodyfile="Robowars.cs" bodystart="356" bodyend="360"/>
+        <references refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" compoundref="_robowars_8cs" startline="317" endline="317">Robowars.Weapon.Damage</references>
+        <references refid="class_robowars_1_1_weapon_1a86a3f54c2db9108435e0468128233bac" compoundref="_robowars_8cs" startline="315" endline="315">Robowars.Weapon.Name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Robowars.Hammer</label>
+        <link refid="class_robowars_1_1_hammer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapon"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.Hammer</label>
+        <link refid="class_robowars_1_1_hammer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapon"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="355" column="1" bodyfile="Robowars.cs" bodystart="354" bodyend="362"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" prot="package" virt="non-virtual"><scope>Robowars::Hammer</scope><name>Damage</name></member>
+      <member refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" prot="public" virt="virtual"><scope>Robowars::Hammer</scope><name>GetDamage</name></member>
+      <member refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" prot="public" virt="non-virtual"><scope>Robowars::Hammer</scope><name>Hammer</name></member>
+      <member refid="class_robowars_1_1_weapon_1a86a3f54c2db9108435e0468128233bac" prot="public" virt="non-virtual"><scope>Robowars::Hammer</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_hammer_1ac4c071b0b05f10d4cc6d8331b18c913c" prot="public" virt="non-virtual"><scope>Robowars::Hammer</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

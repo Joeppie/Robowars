@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_weapon_upgrade_specifier" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::WeaponUpgradeSpecifier</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon Robowars.WeaponUpgradeSpecifier._weapon</definition>
+        <argsstring></argsstring>
+        <name>_weapon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="412" column="24" bodyfile="Robowars.cs" bodystart="412" bodyend="412"/>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1a9077265b0eae345e4b25d8d0ff45053b" compoundref="_robowars_8cs" startline="415" endline="419">Robowars.WeaponUpgradeSpecifier.WeaponUpgradeSpecifier</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1ac2fb273aa6b882466716999a2c9cdf9e" compoundref="_robowars_8cs" startline="426" endline="432">Robowars.WeaponUpgradeSpecifier.UpgradeByPercentage</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1a38bba5835b9e41aeb5aa0455cee2cdba" compoundref="_robowars_8cs" startline="434" endline="440">Robowars.WeaponUpgradeSpecifier.UpgradeByAmount</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" compoundref="_robowars_8cs" startline="448" endline="452">Robowars.WeaponUpgradeSpecifier.Build</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_robowars_1_1_weapon_upgrade_specifier_1afdbd72d7ffef5e055581cf1374d9060a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Robowars.WeaponUpgradeSpecifier._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="413" column="24" bodyfile="Robowars.cs" bodystart="413" bodyend="413"/>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1a9ef1475b5fec4f8c3bda35944e5a544a" compoundref="_robowars_8cs" startline="442" endline="446">Robowars.WeaponUpgradeSpecifier.Named</referencedby>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" compoundref="_robowars_8cs" startline="448" endline="452">Robowars.WeaponUpgradeSpecifier.Build</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1a9077265b0eae345e4b25d8d0ff45053b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.WeaponUpgradeSpecifier.WeaponUpgradeSpecifier</definition>
+        <argsstring>(Weapon weapon)</argsstring>
+        <name>WeaponUpgradeSpecifier</name>
+        <param>
+          <type><ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="415" column="17" bodyfile="Robowars.cs" bodystart="415" bodyend="419"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" compoundref="_robowars_8cs" startline="412" endline="412">Robowars.WeaponUpgradeSpecifier._weapon</references>
+        <referencedby refid="class_robowars_1_1_weapon_upgrade_specifier_1a29f230583580074b31ea2b8a4c97292f" compoundref="_robowars_8cs" startline="421" endline="424">Robowars.WeaponUpgradeSpecifier.FromWeapon</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1a29f230583580074b31ea2b8a4c97292f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_weapon_upgrade_specifier" kindref="compound">WeaponUpgradeSpecifier</ref></type>
+        <definition>static WeaponUpgradeSpecifier Robowars.WeaponUpgradeSpecifier.FromWeapon</definition>
+        <argsstring>(Weapon baseWeapon)</argsstring>
+        <name>FromWeapon</name>
+        <param>
+          <type><ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref></type>
+          <declname>baseWeapon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="421" column="46" bodyfile="Robowars.cs" bodystart="421" bodyend="424"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1a9077265b0eae345e4b25d8d0ff45053b" compoundref="_robowars_8cs" startline="415" endline="419">Robowars.WeaponUpgradeSpecifier.WeaponUpgradeSpecifier</references>
+        <referencedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" compoundref="_robowars_8cs" startline="482" endline="492">Robowars.SkyNet.CreateWeapons</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1ac2fb273aa6b882466716999a2c9cdf9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_weapon_upgrade_specifier" kindref="compound">WeaponUpgradeSpecifier</ref></type>
+        <definition>WeaponUpgradeSpecifier Robowars.WeaponUpgradeSpecifier.UpgradeByPercentage</definition>
+        <argsstring>(int percentBonus)</argsstring>
+        <name>UpgradeByPercentage</name>
+        <param>
+          <type>int</type>
+          <declname>percentBonus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="426" column="39" bodyfile="Robowars.cs" bodystart="426" bodyend="432"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" compoundref="_robowars_8cs" startline="412" endline="412">Robowars.WeaponUpgradeSpecifier._weapon</references>
+        <referencedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" compoundref="_robowars_8cs" startline="482" endline="492">Robowars.SkyNet.CreateWeapons</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1a38bba5835b9e41aeb5aa0455cee2cdba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_weapon_upgrade_specifier" kindref="compound">WeaponUpgradeSpecifier</ref></type>
+        <definition>WeaponUpgradeSpecifier Robowars.WeaponUpgradeSpecifier.UpgradeByAmount</definition>
+        <argsstring>(int bonus)</argsstring>
+        <name>UpgradeByAmount</name>
+        <param>
+          <type>int</type>
+          <declname>bonus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="434" column="39" bodyfile="Robowars.cs" bodystart="434" bodyend="440"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" compoundref="_robowars_8cs" startline="412" endline="412">Robowars.WeaponUpgradeSpecifier._weapon</references>
+        <referencedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" compoundref="_robowars_8cs" startline="482" endline="492">Robowars.SkyNet.CreateWeapons</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1a9ef1475b5fec4f8c3bda35944e5a544a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_weapon_upgrade_specifier" kindref="compound">WeaponUpgradeSpecifier</ref></type>
+        <definition>WeaponUpgradeSpecifier Robowars.WeaponUpgradeSpecifier.Named</definition>
+        <argsstring>(string name)</argsstring>
+        <name>Named</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="442" column="39" bodyfile="Robowars.cs" bodystart="442" bodyend="446"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1afdbd72d7ffef5e055581cf1374d9060a" compoundref="_robowars_8cs" startline="413" endline="413">Robowars.WeaponUpgradeSpecifier._name</references>
+        <referencedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" compoundref="_robowars_8cs" startline="482" endline="492">Robowars.SkyNet.CreateWeapons</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_weapon" kindref="compound">Weapon</ref></type>
+        <definition>Weapon Robowars.WeaponUpgradeSpecifier.Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robowars.cs" line="448" column="23" bodyfile="Robowars.cs" bodystart="448" bodyend="452"/>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1afdbd72d7ffef5e055581cf1374d9060a" compoundref="_robowars_8cs" startline="413" endline="413">Robowars.WeaponUpgradeSpecifier._name</references>
+        <references refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" compoundref="_robowars_8cs" startline="412" endline="412">Robowars.WeaponUpgradeSpecifier._weapon</references>
+        <references refid="class_robowars_1_1_weapon_1a86a3f54c2db9108435e0468128233bac" compoundref="_robowars_8cs" startline="315" endline="315">Robowars.Weapon.Name</references>
+        <referencedby refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" compoundref="_robowars_8cs" startline="482" endline="492">Robowars.SkyNet.CreateWeapons</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Used to create weapons so no detail knowledge is required about bonuses. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.WeaponUpgradeSpecifier</label>
+        <link refid="class_robowars_1_1_weapon_upgrade_specifier"/>
+      </node>
+    </collaborationgraph>
+    <location file="Robowars.cs" line="411" column="1" bodyfile="Robowars.cs" bodystart="410" bodyend="453"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1afdbd72d7ffef5e055581cf1374d9060a" prot="private" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>_name</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" prot="private" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>_weapon</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" prot="public" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>Build</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a29f230583580074b31ea2b8a4c97292f" prot="public" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>FromWeapon</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a9ef1475b5fec4f8c3bda35944e5a544a" prot="public" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>Named</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a38bba5835b9e41aeb5aa0455cee2cdba" prot="public" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>UpgradeByAmount</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1ac2fb273aa6b882466716999a2c9cdf9e" prot="public" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>UpgradeByPercentage</name></member>
+      <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a9077265b0eae345e4b25d8d0ff45053b" prot="private" virt="non-virtual"><scope>Robowars::WeaponUpgradeSpecifier</scope><name>WeaponUpgradeSpecifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

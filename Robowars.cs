@@ -6,29 +6,29 @@ using System.Threading;
 
 namespace Robowars
 {
-    class Robowars
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            new Contest().ShowMenu();
+            Contest contest = new Contest();
+            contest.ShowMenu();
         }
-
-       
     }
 
-
+    /// <summary>Contains all the information required to organize the Robowars contest</summary>
     public class Contest
     {
-
+        //properties
         Robot Contestant1 { get; set; }
         Robot Contestant2 { get; set; }
 
         public RobotAssembler TerminatorFacility => SkyNet.Instance;
 
         private MiningRobotMaker _miningRobotMaker = new MiningRobotMaker();
-        public RobotAssembler MiningFacility  => _miningRobotMaker;
+        public RobotAssembler MiningFacility => _miningRobotMaker;
 
-
+        
+        /// <summary>Shows the status of the two contestants</summary>
         public void ShowStatus()
         {
             Console.Write("Contestant #1: ");
@@ -44,22 +44,23 @@ namespace Robowars
                 Contestant2.Report();
         }
 
-
+        /// <summary>Shows a menu where the user can select a command to organize and initiate a fight</summary>
         public void ShowMenu()
         {
             Console.WriteLine("Welcome to Robowars, provide input:");
 
 
             ConsoleKeyInfo key;
-            do
+            while (true)
             {
 
                 Console.WriteLine("1: Make Contestant 1 a terminator.");
                 Console.WriteLine("2: Make Contestant 2 a terminator.");
-                Console.WriteLine("3: Make Contestant 2 a mining robot.");
+                Console.WriteLine("3: Make Contestant 1 a mining robot.");
                 Console.WriteLine("4: Make Contestant 2 a mining robot.");
                 Console.WriteLine("5: FIGHT robowar");
                 Console.WriteLine("6: Exit");
+
                 key = Console.ReadKey();
 
                 switch (key.Key)
@@ -78,7 +79,7 @@ namespace Robowars
                         break;
                     case ConsoleKey.D5:
                         Console.Clear();
-                        if(Contestant1 == null || Contestant2 == null)
+                        if (Contestant1 == null || Contestant2 == null)
                         {
                             Console.WriteLine("Cannot fight without two contestants.");
                             continue;
@@ -95,12 +96,14 @@ namespace Robowars
                 }
                 ShowStatus();
             }
-            while (key.KeyChar != 6);
+
         }
 
 
-        void Fight()
+        public void Fight()
         {
+            if (Contestant1 == null || Contestant2 == null)
+                throw new ArgumentException("There must be two contestants.");
             Console.WriteLine($"Our contestants are {Contestant1.Name} and {Contestant2.Name}");
 
             List<Robot> robots = new List<Robot> { Contestant1, Contestant2 };
@@ -146,7 +149,6 @@ namespace Robowars
             Console.WriteLine("Robowars has concluded.");
         }
     }
-
 
     public class Robot
     {
@@ -246,7 +248,7 @@ namespace Robowars
                 }
             }
             protected abstract bool Destroy(string reason);
-            public String Feedback { get; protected set; }
+            public string Feedback { get; protected set; }
 
             public virtual string Description => (this.GetType().Name);
         }
@@ -361,15 +363,14 @@ namespace Robowars
         public override int PowerDrain => 2;
     }
 
-
     public abstract class WeaponEnhancement : Weapon
     {
 
-        public Weapon enhancedWeapon { get; protected set; }
+        public Weapon EnhancedWeapon { get;  set; }
 
         public override int GetDamage()
         {
-            return enhancedWeapon.GetDamage();
+            return EnhancedWeapon.GetDamage();
         }
     }
 
@@ -377,16 +378,16 @@ namespace Robowars
     {
         public int Bonus { get; private set; }
 
-        public override int PowerDrain => enhancedWeapon.PowerDrain + Bonus / 2;
+        public override int PowerDrain => EnhancedWeapon.PowerDrain + Bonus / 2;
 
         public FixedDamageBonusWeapon(Weapon weapontToEnhance, int bonus)
         {
-            enhancedWeapon = weapontToEnhance;
+            EnhancedWeapon = weapontToEnhance;
             Bonus = bonus;
         }
         public override int GetDamage()
         {
-            return enhancedWeapon.GetDamage() + Bonus;
+            return EnhancedWeapon.GetDamage() + Bonus;
         }
     }
 
@@ -394,11 +395,11 @@ namespace Robowars
     {
         public double BonusFactor { get; private set; }
 
-        public override int PowerDrain => (int)Math.Round(enhancedWeapon.PowerDrain * Math.Pow(BonusFactor, 1.2));
+        public override int PowerDrain => (int)Math.Round(EnhancedWeapon.PowerDrain * Math.Pow(BonusFactor, 1.2));
 
         public PercentageBonusDamageWeapon(Weapon weapontToEnhance, int percentBonus)
         {
-            enhancedWeapon = weapontToEnhance;
+            EnhancedWeapon = weapontToEnhance;
             BonusFactor = 1 + percentBonus / 100d;
         }
         public override int GetDamage()
@@ -407,13 +408,11 @@ namespace Robowars
         }
     }
 
-
-
-    /// <summary>Specifies how a weapon should be upgraded and named.</summary>
+    /// <summary>Used to create weapons so no detail knowledge is required about bonuses.</summary>
     public class WeaponUpgradeSpecifier
     {
-        private Weapon _weapon { get;  set; }
-        private string _name {  get;  set; }
+        private Weapon _weapon { get; set; }
+        private string _name { get; set; }
 
         private WeaponUpgradeSpecifier(Weapon weapon)
         {
@@ -453,30 +452,32 @@ namespace Robowars
             _weapon.Name = _name;
             return _weapon;
         }
-
     }
-
 
     public abstract class RobotAssembler
     {
+        /// <summary>Creates a new robot.</summary>
         public Robot AssembleRobot()
         {
             Robot robot = new Robot(Name(), CreateWeapons());
             return robot;
         }
 
+        /// <summary>Returns the name for a newly created robot.</summary>
         protected abstract string Name();
 
+        /// <summary>Creates weaponry for the robot.</summary>
         protected abstract List<Weapon> CreateWeapons();
     }
 
 
+    /// <summary>Creates terminator robots</summary>
     public class SkyNet : RobotAssembler
     {
         static SkyNet _instance = new SkyNet();
         int _mark = 2000;
 
-        private SkyNet(){} //Do not allow direct instantiation.
+        private SkyNet() { } //Do not allow direct instantiation.
 
         public static SkyNet Instance { get { return _instance; } }
 
@@ -498,6 +499,8 @@ namespace Robowars
         }
     }
 
+
+    /// <summary>Creates friendly mining robots</summary>
     public class MiningRobotMaker : RobotAssembler
     {
         protected override List<Weapon> CreateWeapons()

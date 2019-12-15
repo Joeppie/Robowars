@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_robowars_1_1_robot_1_1_robot_situation.html" title="Represents a Situation a robot can have; Each method is a transition to a different situation,..." alt="" coords="5,56,212,83"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_1_1_active.html" title=" " alt="" coords="272,5,428,32"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robot_1_1_destroyed.html" title=" " alt="" coords="260,56,440,83"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_robot_1_1_standby.html" title=" " alt="" coords="265,107,435,133"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robot_1_1_attacking.html" title=" " alt="" coords="488,5,664,32"/>
+</map>

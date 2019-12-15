@@ -1,0 +1,5 @@
+<map id="Robowars.RobotAssembler" name="Robowars.RobotAssembler">
+<area shape="rect" id="node1" title=" " alt="" coords="105,5,283,112"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_mining_robot_maker.html" title="Creates friendly mining robots" alt="" coords="5,182,196,274"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_sky_net.html" title="Creates terminator robots" alt="" coords="220,160,355,296"/>
+</map>

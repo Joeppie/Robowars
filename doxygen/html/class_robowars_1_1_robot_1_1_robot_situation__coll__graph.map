@@ -1,0 +1,3 @@
+<map id="Robowars.Robot.RobotSituation" name="Robowars.Robot.RobotSituation">
+<area shape="rect" id="node1" title="Represents a Situation a robot can have; Each method is a transition to a different situation,..." alt="" coords="5,5,212,200"/>
+</map>

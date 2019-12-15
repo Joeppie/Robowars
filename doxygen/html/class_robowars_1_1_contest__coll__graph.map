@@ -1,0 +1,6 @@
+<map id="Robowars.Contest" name="Robowars.Contest">
+<area shape="rect" id="node1" title="Contains all the information required to organize the Robowars contest" alt="" coords="119,345,247,467"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html" title=" " alt="" coords="5,161,184,268"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_mining_robot_maker.html" title="Creates friendly mining robots" alt="" coords="209,169,399,261"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robot_assembler.html" title=" " alt="" coords="237,5,371,112"/>
+</map>

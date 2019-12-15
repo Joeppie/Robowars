@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="class_robowars_1_1_robot_1_1_active" kind="class"><name>Robowars::Robot::Active</name>
+    <member refid="class_robowars_1_1_robot_1_1_active_1a5e1619493571d6dd0da51c63e17ee50a" kind="function"><name>Active</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_active_1ac57906979cc36c84d49c15f078ce1b82" kind="function"><name>Ready</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_active_1ab27f35132040bf8c2b213bb42c83a346" kind="function"><name>Deactivate</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_active_1a656370a709c6030415d6806f0b71ea04" kind="function"><name>Attack</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_active_1a0a6323e8f32b7b3b4a84a8b2939f2f86" kind="function"><name>Destroy</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot_1_1_attacking" kind="class"><name>Robowars::Robot::Attacking</name>
+    <member refid="class_robowars_1_1_robot_1_1_attacking_1ad378e1b5bd35b59c1e7060bd11141c01" kind="function"><name>Attacking</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_attacking_1ab0ec6447ab19da0bc98e06719e3f5468" kind="function"><name>Ready</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_attacking_1a8665d2bd08d335d2011899bc0c6c0cfa" kind="function"><name>Attack</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_contest" kind="class"><name>Robowars::Contest</name>
+    <member refid="class_robowars_1_1_contest_1add636de3540d39edc0c979bc2a9f4b61" kind="property"><name>Contestant1</name></member>
+    <member refid="class_robowars_1_1_contest_1a3f4feb830537797932f8a7651738fd9b" kind="property"><name>Contestant2</name></member>
+    <member refid="class_robowars_1_1_contest_1a4ab8db4b5fcec16244f6c42329c766e2" kind="variable"><name>TerminatorFacility</name></member>
+    <member refid="class_robowars_1_1_contest_1ad5e64508d2bef639dafd8388684a5938" kind="variable"><name>MiningFacility</name></member>
+    <member refid="class_robowars_1_1_contest_1a9371c709ebc019015f1b2c91fb5ef1eb" kind="variable"><name>_miningRobotMaker</name></member>
+    <member refid="class_robowars_1_1_contest_1aab738c7bae8a47f70118f9a0517551c1" kind="function"><name>ShowStatus</name></member>
+    <member refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" kind="function"><name>ShowMenu</name></member>
+    <member refid="class_robowars_1_1_contest_1aa78400fb2b86f1d4b6e963581fb0b3f1" kind="function"><name>Fight</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_weapon_1_1_damage_rating" kind="class"><name>Robowars::Weapon::DamageRating</name>
+    <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1a5e6c8641a210408076ace8aa71548b85" kind="variable"><name>random</name></member>
+    <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1afb9a2129b61e2a8f5afe1b0c6f7bf9a1" kind="property"><name>Min</name></member>
+    <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1abcf7f629bf1a86be4d1d42483d7e70f9" kind="property"><name>Max</name></member>
+    <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1ac0ab58d9a8b3d368dc556fa258513b96" kind="function"><name>DamageRating</name></member>
+    <member refid="class_robowars_1_1_weapon_1_1_damage_rating_1a467baf6e92ccab89e2668032215af28f" kind="function"><name>Get</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot_1_1_destroyed" kind="class"><name>Robowars::Robot::Destroyed</name>
+    <member refid="class_robowars_1_1_robot_1_1_destroyed_1a7cf20d1f8199711d2f5660b3d6f00e24" kind="function"><name>Destroyed</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_destroyed_1a1d8041268640db47f7da4b5e9ec29fa9" kind="function"><name>Ready</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_destroyed_1a6c152db5297e39b4dc9a987001ea527e" kind="function"><name>Deactivate</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_destroyed_1a3355e8a634bbd0a2237a9957c382eff6" kind="function"><name>Attack</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_destroyed_1adbd7164a77a5075fc8ad2138ae09a8ca" kind="function"><name>Destroy</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_fixed_damage_bonus_weapon" kind="class"><name>Robowars::FixedDamageBonusWeapon</name>
+    <member refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a19c5505360a267a9fd453c0b4191a1ea" kind="property"><name>Bonus</name></member>
+    <member refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a7bf69433bf5f931fbe8c811e0211fd01" kind="variable"><name>PowerDrain</name></member>
+    <member refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a97cf83217bee9b8b078d3a47649faa71" kind="function"><name>FixedDamageBonusWeapon</name></member>
+    <member refid="class_robowars_1_1_fixed_damage_bonus_weapon_1a6f6167bb3bb85b7cf4eef06709476235" kind="function"><name>GetDamage</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_hammer" kind="class"><name>Robowars::Hammer</name>
+    <member refid="class_robowars_1_1_hammer_1ac4c071b0b05f10d4cc6d8331b18c913c" kind="variable"><name>PowerDrain</name></member>
+    <member refid="class_robowars_1_1_hammer_1a7d5e9de0a500e79fe081cc82fdd63cff" kind="function"><name>Hammer</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_laser" kind="class"><name>Robowars::Laser</name>
+    <member refid="class_robowars_1_1_laser_1aca7116de436052067793341106f86eb5" kind="variable"><name>PowerDrain</name></member>
+    <member refid="class_robowars_1_1_laser_1ab5d4383da98f29cc5379572baca76fdc" kind="function"><name>Laser</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_mining_robot_maker" kind="class"><name>Robowars::MiningRobotMaker</name>
+    <member refid="class_robowars_1_1_mining_robot_maker_1a05f71d88ab7da96a60ee10daeb3e26fb" kind="function"><name>CreateWeapons</name></member>
+    <member refid="class_robowars_1_1_mining_robot_maker_1a8e5c2b423357c2255c2561e60762073f" kind="function"><name>Name</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_percentage_bonus_damage_weapon" kind="class"><name>Robowars::PercentageBonusDamageWeapon</name>
+    <member refid="class_robowars_1_1_percentage_bonus_damage_weapon_1a673a52645f1d5daffe0663ad899c95c7" kind="property"><name>BonusFactor</name></member>
+    <member refid="class_robowars_1_1_percentage_bonus_damage_weapon_1a8b2ec49818f63f928f423961276c78cf" kind="variable"><name>PowerDrain</name></member>
+    <member refid="class_robowars_1_1_percentage_bonus_damage_weapon_1a3425be3a4e1c75cba4825f9e9aa18236" kind="function"><name>PercentageBonusDamageWeapon</name></member>
+    <member refid="class_robowars_1_1_percentage_bonus_damage_weapon_1aad9283c4b29268702cb15f52c7e1213f" kind="function"><name>GetDamage</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_program" kind="class"><name>Robowars::Program</name>
+    <member refid="class_robowars_1_1_program_1af46e692d0f1e92dd1bae9ccb6daa191b" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot" kind="class"><name>Robowars::Robot</name>
+    <member refid="class_robowars_1_1_robot_1aae9e14005ae5ecbc5378e8e358f82fd0" kind="property"><name>Situation</name></member>
+    <member refid="class_robowars_1_1_robot_1a8c28af718d772df51e33a5c3b31e3cd6" kind="property"><name>Name</name></member>
+    <member refid="class_robowars_1_1_robot_1a40d20f5857f7b41d04415d2e3921c4cf" kind="property"><name>PowerLevel</name></member>
+    <member refid="class_robowars_1_1_robot_1a84a5824c1e2104ba8ea35ced5916ba0e" kind="property"><name>Weapons</name></member>
+    <member refid="class_robowars_1_1_robot_1aa0fa00e8d1fbefc86a0f436b5102ac7c" kind="variable"><name>IsDestroyed</name></member>
+    <member refid="class_robowars_1_1_robot_1aff4015b41ddcacc98dbe523c28e2228b" kind="variable"><name>IsActive</name></member>
+    <member refid="class_robowars_1_1_robot_1a328d91368aac6d4668757f3145d84b9b" kind="variable"><name>IsStandby</name></member>
+    <member refid="class_robowars_1_1_robot_1a1895fd9a72ccf473b2312c798186149b" kind="variable"><name>IsMoving</name></member>
+    <member refid="class_robowars_1_1_robot_1a8c6abe15990da1341db27863c431bd53" kind="variable"><name>_weapons</name></member>
+    <member refid="class_robowars_1_1_robot_1a946c28f7e5f8270243664a01ddf6e1f4" kind="function"><name>Robot</name></member>
+    <member refid="class_robowars_1_1_robot_1a9cbd51f30a41c882ad9fd152a13646e9" kind="function"><name>TakeDamage</name></member>
+    <member refid="class_robowars_1_1_robot_1a8f6dfbc39f615d923e0357c52c75599d" kind="function"><name>Report</name></member>
+    <member refid="class_robowars_1_1_robot_1a76a6fccb34fe3482c0883712abff7622" kind="function"><name>Attack</name></member>
+    <member refid="class_robowars_1_1_robot_1ae41ce01299fe98b573362be9c76172ee" kind="function"><name>ActivateIfPossible</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot_assembler" kind="class"><name>Robowars::RobotAssembler</name>
+    <member refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" kind="function"><name>AssembleRobot</name></member>
+    <member refid="class_robowars_1_1_robot_assembler_1a0a90cc5b9ffa5c85e299159feb8f2ff4" kind="function"><name>Name</name></member>
+    <member refid="class_robowars_1_1_robot_assembler_1aad9c5cff1aab535f762950f7a031d51f" kind="function"><name>CreateWeapons</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot_1_1_robot_situation" kind="class"><name>Robowars::Robot::RobotSituation</name>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1af3478f9f76d0ffccc847ffc02cff51a6" kind="property"><name>Context</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1af19bdee11e988d9ab874a8d5d8f24de9" kind="property"><name>Feedback</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1afcc1f98e1981e47e6812ebf771d9864b" kind="variable"><name>Description</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1a4bef73173675263f68ff6a087c2f79ff" kind="function"><name>RobotSituation</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1ac9c294d86d69fd815a4fbe70aaa0acdf" kind="function"><name>RobotSituation</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1a432be630bd8891af2e1afd4bac43793c" kind="function"><name>Ready</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1a76891b2742c61cc0d9946ba27176fed8" kind="function"><name>Attack</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1a60fd3df331b4cf201f00d9b112ff3d80" kind="function"><name>Deactivate</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1af0b1aa1c5f80cf36c5d3761195cb87a0" kind="function"><name>TakeDamage</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_robot_situation_1a394230c42ef626a4beb86548a0856128" kind="function"><name>Destroy</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_sky_net" kind="class"><name>Robowars::SkyNet</name>
+    <member refid="class_robowars_1_1_sky_net_1ad839bea7bb3e2e6405ef0f39e5d8276c" kind="variable"><name>_instance</name></member>
+    <member refid="class_robowars_1_1_sky_net_1a18155d15686340e9676ac99b3a469e53" kind="variable"><name>_mark</name></member>
+    <member refid="class_robowars_1_1_sky_net_1a7b03ef5f82d6c04b3618c26f5dca8cff" kind="property"><name>Instance</name></member>
+    <member refid="class_robowars_1_1_sky_net_1afb5b2de327ccc12e642860b07a202f31" kind="function"><name>SkyNet</name></member>
+    <member refid="class_robowars_1_1_sky_net_1ade22c7f2ef5b04b241d485a7dcc44312" kind="function"><name>CreateWeapons</name></member>
+    <member refid="class_robowars_1_1_sky_net_1a439d243778dff20a079d1e65fd37d393" kind="function"><name>Name</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_robot_1_1_standby" kind="class"><name>Robowars::Robot::Standby</name>
+    <member refid="class_robowars_1_1_robot_1_1_standby_1a6b783119a1054cc40afb704b0383bd2e" kind="function"><name>Standby</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_standby_1a1602ab4c9cbb82a0825955c72cd13997" kind="function"><name>Ready</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_standby_1ad47ec28d6abb918a984bbad773f91475" kind="function"><name>Deactivate</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_standby_1ad7b90e39f5f40f54a1a1794dbb4d5015" kind="function"><name>Attack</name></member>
+    <member refid="class_robowars_1_1_robot_1_1_standby_1a1f89f756eb0af4faf8102a53cb0f304b" kind="function"><name>Destroy</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_weapon" kind="class"><name>Robowars::Weapon</name>
+    <member refid="class_robowars_1_1_weapon_1a22e3eae14b728ec459cf98136f62ce53" kind="property"><name>PowerDrain</name></member>
+    <member refid="class_robowars_1_1_weapon_1a86a3f54c2db9108435e0468128233bac" kind="property"><name>Name</name></member>
+    <member refid="class_robowars_1_1_weapon_1a55732009b79f4ae405e501aac992a23d" kind="property"><name>Damage</name></member>
+    <member refid="class_robowars_1_1_weapon_1aa2c866db4e3d5317d1ceda6c29b4dcc4" kind="function"><name>GetDamage</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_weapon_enhancement" kind="class"><name>Robowars::WeaponEnhancement</name>
+    <member refid="class_robowars_1_1_weapon_enhancement_1a55e917dd93fd4c162bd479984602c2d2" kind="property"><name>EnhancedWeapon</name></member>
+    <member refid="class_robowars_1_1_weapon_enhancement_1a6495deceb97d01af4725287e37fad853" kind="function"><name>GetDamage</name></member>
+  </compound>
+  <compound refid="class_robowars_1_1_weapon_upgrade_specifier" kind="class"><name>Robowars::WeaponUpgradeSpecifier</name>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1acb0e6f1de5cca5afccba5f19588e1163" kind="property"><name>_weapon</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1afdbd72d7ffef5e055581cf1374d9060a" kind="property"><name>_name</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a9077265b0eae345e4b25d8d0ff45053b" kind="function"><name>WeaponUpgradeSpecifier</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a29f230583580074b31ea2b8a4c97292f" kind="function"><name>FromWeapon</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1ac2fb273aa6b882466716999a2c9cdf9e" kind="function"><name>UpgradeByPercentage</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a38bba5835b9e41aeb5aa0455cee2cdba" kind="function"><name>UpgradeByAmount</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1a9ef1475b5fec4f8c3bda35944e5a544a" kind="function"><name>Named</name></member>
+    <member refid="class_robowars_1_1_weapon_upgrade_specifier_1acba4fea284b33a76ac4f2c5891a9e309" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="namespace_robowars" kind="namespace"><name>Robowars</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="hello_8_assembly_info_8cs" kind="file"><name>hello.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_robo_wars_8_assembly_info_8cs" kind="file"><name>RoboWars.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_robowars_8cs" kind="file"><name>Robowars.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_41f23d854d5674035e50db426b4cde60" kind="dir"><name>obj/Debug/netcoreapp3.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+</doxygenindex>

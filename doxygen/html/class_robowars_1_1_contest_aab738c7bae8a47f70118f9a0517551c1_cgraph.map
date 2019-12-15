@@ -1,0 +1,4 @@
+<map id="Robowars.Contest.ShowStatus" name="Robowars.Contest.ShowStatus">
+<area shape="rect" id="node1" title="Shows the status of the two contestants" alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot.html#a8f6dfbc39f615d923e0357c52c75599d" title=" " alt="" coords="256,5,415,32"/>
+</map>
