@@ -1,0 +1,5 @@
+<map id="Robowars.Weapons.WeaponEnhancement.GetDamage" name="Robowars.Weapons.WeaponEnhancement.GetDamage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,280,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_weapon.html#ae031f8bce8e49d0bd8279c1ca81a76b8" title=" " alt="" coords="328,5,523,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapons_1_1_weapon_1_1_damage_rating.html#a6b7d9070e7ca6048a23f1a175def136b" title="Gets a new random damage between Min and Max." alt="" coords="571,5,765,47"/>
+</map>

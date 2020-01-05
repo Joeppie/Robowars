@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Robowars</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Dit<sp/>is<sp/>een<sp/>code<sp/>uitwerking<sp/>van<sp/>een<sp/>casus<sp/>voor<sp/>design<sp/>patterns<sp/>zoals<sp/>gebruikt<sp/>in<sp/>een<sp/>tentamen<sp/>van<sp/>design<sp/>patterns<sp/>2019-2020.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Gebruik<sp/>Antwoorden.docx<sp/>om<sp/>je<sp/>antwoorden<sp/>in<sp/>te<sp/>vullen.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Pas<sp/>de<sp/>code<sp/>aan<sp/>zoals<sp/>benodigd<sp/>voor<sp/>de<sp/>opgave(n)<sp/>en<sp/>pak<sp/>na<sp/>afloop<sp/>deze<sp/>hele<sp/>map<sp/>weer<sp/>in<sp/>naar<sp/>een<sp/>.zip<sp/>file<sp/>met<sp/>je<sp/>studentnummer<sp/>en<sp/>naam.</highlight></codeline>
+<codeline><highlight class="normal">Deze<sp/>kun<sp/>je<sp/>vervolgens<sp/>via<sp/>Blackboard<sp/>inleveren.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">(Er<sp/>is<sp/>Doxygen<sp/>documentatie<sp/>meegeleverd<sp/>waarmee<sp/>je<sp/>eventueel<sp/>via<sp/>UML<sp/>en<sp/>documentatie<sp/>de<sp/>code<sp/>kunt<sp/>ook<sp/>doorgronden.</highlight></codeline>
+<codeline><highlight class="normal">Deze<sp/>kun<sp/>je<sp/>terugvinden<sp/>onder<sp/>de<sp/>map<sp/>doxygen/html/index.html.)</highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

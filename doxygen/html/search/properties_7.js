@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['name_169',['Name',['../class_robowars_1_1_robot.html#a8c28af718d772df51e33a5c3b31e3cd6',1,'Robowars.Robot.Name()'],['../class_robowars_1_1_weapon.html#a86a3f54c2db9108435e0468128233bac',1,'Robowars.Weapon.Name()']]]
+  ['powerdrain_189',['PowerDrain',['../class_robowars_1_1_weapons_1_1_weapon.html#ad2f5489a5775ff61d021ccbf7b6f5d10',1,'Robowars::Weapons::Weapon']]],
+  ['powerlevel_190',['PowerLevel',['../class_robowars_1_1_robots_1_1_robot.html#afa00594223dac1c52f32f1f4ed9a5e5c',1,'Robowars::Robots::Robot']]]
 ];

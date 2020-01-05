@@ -1,4 +1,4 @@
 <map id="Robowars.SkyNet" name="Robowars.SkyNet">
-<area shape="rect" id="node1" title="Creates terminator robots" alt="" coords="9,145,136,281"/>
+<area shape="rect" id="node1" title="Creates terminator robots" alt="" coords="9,145,136,223"/>
 <area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html" title="Represents logic regarding how specific robots may be produced." alt="" coords="5,5,140,97"/>
 </map>

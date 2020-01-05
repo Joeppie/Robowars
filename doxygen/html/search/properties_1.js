@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['bonus_156',['Bonus',['../class_robowars_1_1_fixed_damage_bonus_weapon.html#a19c5505360a267a9fd453c0b4191a1ea',1,'Robowars::FixedDamageBonusWeapon']]],
-  ['bonusfactor_157',['BonusFactor',['../class_robowars_1_1_percentage_bonus_damage_weapon.html#a673a52645f1d5daffe0663ad899c95c7',1,'Robowars::PercentageBonusDamageWeapon']]]
+  ['color_179',['Color',['../class_robowars_1_1_robots_1_1_miner.html#ae273993f72b553815e3f7e4cd65c5520',1,'Robowars::Robots::Miner']]],
+  ['context_180',['Context',['../class_robowars_1_1_robots_1_1_robot_situation.html#ad5902022bf5974064605de3b025786d1',1,'Robowars::Robots::RobotSituation']]]
 ];

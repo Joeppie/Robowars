@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['upgradebyamount_136',['UpgradeByAmount',['../class_robowars_1_1_weapon_upgrade_specifier.html#a38bba5835b9e41aeb5aa0455cee2cdba',1,'Robowars::WeaponUpgradeSpecifier']]],
-  ['upgradebypercentage_137',['UpgradeByPercentage',['../class_robowars_1_1_weapon_upgrade_specifier.html#ac2fb273aa6b882466716999a2c9cdf9e',1,'Robowars::WeaponUpgradeSpecifier']]]
+  ['upgradebyamount_166',['UpgradeByAmount',['../class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#ac803e80b2b4d1bc47819fb465c19f738',1,'Robowars::Weapons::WeaponUpgradeSpecifier']]],
+  ['upgradebypercentage_167',['UpgradeByPercentage',['../class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#a3db013e1a0e625e17851d93bb6bde089',1,'Robowars::Weapons::WeaponUpgradeSpecifier']]]
 ];

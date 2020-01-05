@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_attacking_8cs" kind="file" language="C#">
+    <compoundname>Attacking.cs</compoundname>
+    <innerclass refid="class_robowars_1_1_robots_1_1_attacking" prot="package">Robowars::Robots::Attacking</innerclass>
+    <innernamespace refid="namespace_robowars">Robowars</innernamespace>
+    <innernamespace refid="namespace_robowars_1_1_robots">Robowars::Robots</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_robowars_1_1_robots" kindref="compound">Robowars.Robots</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="4" refid="class_robowars_1_1_robots_1_1_attacking" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_robowars_1_1_robots_1_1_attacking" kindref="compound">Attacking</ref><sp/>:<sp/><ref refid="class_robowars_1_1_robots_1_1_active" kindref="compound">Active</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="class_robowars_1_1_robots_1_1_attacking_1ab2b99bbcb88abcfbf2a7ba8824bdc895" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_attacking_1ab2b99bbcb88abcfbf2a7ba8824bdc895" kindref="member">Attacking</ref>(<ref refid="class_robowars_1_1_robots_1_1_robot" kindref="compound">Robot</ref><sp/>context,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>feedback<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>:<sp/>base(context,<sp/>feedback)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_robowars_1_1_robots_1_1_attacking_1a34a126199fe35dd89b9106c0bba62804" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_attacking_1a34a126199fe35dd89b9106c0bba62804" kindref="member">Ready</ref>()<sp/>{<sp/><ref refid="class_robowars_1_1_robots_1_1_robot_situation_1ad5902022bf5974064605de3b025786d1" kindref="member">Context</ref>.<ref refid="class_robowars_1_1_robots_1_1_robot_1a2e5584b891f7cfae9961aa4e93abd224" kindref="member">Situation</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_active_1af4259cf153390375fae24acb65a942ba" kindref="member">Active</ref>(<ref refid="class_robowars_1_1_robots_1_1_robot_situation_1ad5902022bf5974064605de3b025786d1" kindref="member">Context</ref>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_robowars_1_1_robots_1_1_attacking_1a511938db8df24ea70263598a144f574a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_attacking_1a511938db8df24ea70263598a144f574a" kindref="member">Attack</ref>()<sp/>{<sp/><ref refid="class_robowars_1_1_robots_1_1_robot_situation_1aff7c29a8709c52c3c36c9435bcedcf80" kindref="member">Feedback</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Cannot<sp/>attack<sp/>twice.&quot;</highlight><highlight class="normal">;<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Robots/Attacking.cs"/>
+  </compounddef>
+</doxygen>

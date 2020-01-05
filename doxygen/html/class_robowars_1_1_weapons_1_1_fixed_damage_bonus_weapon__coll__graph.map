@@ -1,0 +1,5 @@
+<map id="Robowars.Weapons.FixedDamageBonusWeapon" name="Robowars.Weapons.FixedDamageBonusWeapon">
+<area shape="rect" id="node1" title=" " alt="" coords="5,285,228,407"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_weapon_enhancement.html" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="41,160,192,237"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapons_1_1_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="61,5,172,112"/>
+</map>

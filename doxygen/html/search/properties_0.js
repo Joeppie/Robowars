@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_5fname_154',['_name',['../class_robowars_1_1_weapon_upgrade_specifier.html#afdbd72d7ffef5e055581cf1374d9060a',1,'Robowars::WeaponUpgradeSpecifier']]],
-  ['_5fweapon_155',['_weapon',['../class_robowars_1_1_weapon_upgrade_specifier.html#acb0e6f1de5cca5afccba5f19588e1163',1,'Robowars::WeaponUpgradeSpecifier']]]
+  ['bonus_177',['Bonus',['../class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon.html#a4239ea9dc9b2cc96aa8aab0bf3389c9f',1,'Robowars::Weapons::FixedDamageBonusWeapon']]],
+  ['bonusfactor_178',['BonusFactor',['../class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon.html#a63fcb5d1323242b1506509dd90d9a575',1,'Robowars::Weapons::PercentageBonusDamageWeapon']]]
 ];

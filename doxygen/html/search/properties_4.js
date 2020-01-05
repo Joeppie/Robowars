@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['enhancedweapon_164',['EnhancedWeapon',['../class_robowars_1_1_weapon_enhancement.html#a55e917dd93fd4c162bd479984602c2d2',1,'Robowars::WeaponEnhancement']]]
+  ['feedback_184',['Feedback',['../class_robowars_1_1_robots_1_1_robot_situation.html#aff7c29a8709c52c3c36c9435bcedcf80',1,'Robowars::Robots::RobotSituation']]]
 ];

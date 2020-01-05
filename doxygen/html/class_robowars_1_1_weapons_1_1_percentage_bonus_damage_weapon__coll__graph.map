@@ -1,0 +1,5 @@
+<map id="Robowars.Weapons.PercentageBonusDamageWeapon" name="Robowars.Weapons.PercentageBonusDamageWeapon">
+<area shape="rect" id="node1" title=" " alt="" coords="5,285,247,407"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_weapon_enhancement.html" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="51,160,201,237"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapons_1_1_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="71,5,181,112"/>
+</map>

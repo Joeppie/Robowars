@@ -1,0 +1,7 @@
+<map id="Robowars.Robots.RobotSituation" name="Robowars.Robots.RobotSituation">
+<area shape="rect" id="node1" title="Represents a Situation a Robot can be in; Each method is a transition to a different RobotSituation,..." alt="" coords="189,5,402,185"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_active.html" title="Indicates that the Robot is Active and is ready to perform actions." alt="" coords="15,233,178,369"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robots_1_1_destroyed.html" title="Indicates that the Robot has been Destroyed." alt="" coords="202,233,389,369"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_robots_1_1_standby.html" title="Indicates that the Robot is inactive, on Standby." alt="" coords="413,233,589,369"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_attacking.html" title="Indicates that the Robot is currently Attacking." alt="" coords="5,417,188,524"/>
+</map>

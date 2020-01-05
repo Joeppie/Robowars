@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_robowars_1_1_robots_1_1_robot_situation.html" title="Represents a Situation a Robot can be in; Each method is a transition to a different RobotSituation,..." alt="" coords="5,56,219,83"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_active.html" title="Indicates that the Robot is Active and is ready to perform actions." alt="" coords="279,5,441,32"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robots_1_1_destroyed.html" title="Indicates that the Robot has been Destroyed." alt="" coords="267,56,453,83"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_robots_1_1_standby.html" title="Indicates that the Robot is inactive, on Standby." alt="" coords="272,107,448,133"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_attacking.html" title="Indicates that the Robot is currently Attacking." alt="" coords="501,5,684,32"/>
+</map>

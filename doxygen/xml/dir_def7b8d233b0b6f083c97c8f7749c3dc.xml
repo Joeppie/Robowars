@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_def7b8d233b0b6f083c97c8f7749c3dc" kind="dir">
+    <compoundname>Robots</compoundname>
+    <innerfile refid="_active_8cs">Active.cs</innerfile>
+    <innerfile refid="_attacking_8cs">Attacking.cs</innerfile>
+    <innerfile refid="_destroyed_8cs">Destroyed.cs</innerfile>
+    <innerfile refid="_miner_8cs">Miner.cs</innerfile>
+    <innerfile refid="_robot_8cs">Robot.cs</innerfile>
+    <innerfile refid="_robot_situation_8cs">RobotSituation.cs</innerfile>
+    <innerfile refid="_standby_8cs">Standby.cs</innerfile>
+    <innerfile refid="_terminator_8cs">Terminator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Robots/"/>
+  </compounddef>
+</doxygen>

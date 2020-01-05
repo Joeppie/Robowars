@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboWars", "RoboWars.csproj", "{8EA2EA30-F964-49BB-9D46-F951FE2C324C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robowars", "Robowars.csproj", "{D5629025-BCCE-4DBB-BE32-B1033998C4E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8EA2EA30-F964-49BB-9D46-F951FE2C324C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8EA2EA30-F964-49BB-9D46-F951FE2C324C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8EA2EA30-F964-49BB-9D46-F951FE2C324C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8EA2EA30-F964-49BB-9D46-F951FE2C324C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5629025-BCCE-4DBB-BE32-B1033998C4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5629025-BCCE-4DBB-BE32-B1033998C4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5629025-BCCE-4DBB-BE32-B1033998C4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5629025-BCCE-4DBB-BE32-B1033998C4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {898F0C93-A904-41FD-88FA-4990BF510D52}
+		SolutionGuid = {6FD7415A-F3D8-4AEE-9795-0B62352F5441}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,5 @@
+<map id="Robowars.Robots.Robot.TakeDamage" name="Robowars.Robots.Robot.TakeDamage">
+<area shape="rect" id="node1" title="Instructs the robot to take damage for a certain reason" alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a0d113708aa1f066d2df5c9a80b21efa2" title="Handles the logic for a Robot taking damage, and transitions the Situation to Destroyed when appropri..." alt="" coords="248,5,465,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a352cf94b82a44b9cb58fe481527b7edf" title="Attempts a transition to the Destroyed Situation" alt="" coords="513,5,731,47"/>
+</map>

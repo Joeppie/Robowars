@@ -1,0 +1,8 @@
+<map id="Robowars.Weapons.Weapon" name="Robowars.Weapons.Weapon">
+<area shape="rect" id="node1" title="Defines a top level interface for a weapon." alt="" coords="212,5,403,112"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_hammer.html" title=" " alt="" coords="5,160,196,237"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapons_1_1_laser.html" title=" " alt="" coords="220,160,395,237"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_weapons_1_1_weapon_enhancement.html" title="Represents an enchancement of a Weapon, by transparently wrapping the weapon while also implementing ..." alt="" coords="419,160,689,237"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon.html" title=" " alt="" coords="315,285,537,407"/>
+<area shape="rect" id="node6" href="$class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon.html" title=" " alt="" coords="561,285,803,407"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="Robowars.RobotAssembler" name="Robowars.RobotAssembler">
 <area shape="rect" id="node1" title="Represents logic regarding how specific robots may be produced." alt="" coords="102,5,281,97"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_mining_robot_maker.html" title="Creates friendly mining robots" alt="" coords="5,175,196,252"/>
-<area shape="rect" id="node3" href="$class_robowars_1_1_sky_net.html" title="Creates terminator robots" alt="" coords="220,145,347,281"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_mining_robot_maker.html" title="Creates friendly mining robots" alt="" coords="5,145,196,223"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_sky_net.html" title="Creates terminator robots" alt="" coords="220,145,347,223"/>
 </map>

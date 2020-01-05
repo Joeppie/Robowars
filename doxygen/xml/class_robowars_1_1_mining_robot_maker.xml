@@ -4,20 +4,22 @@
     <compoundname>Robowars::MiningRobotMaker</compoundname>
     <basecompoundref refid="class_robowars_1_1_robot_assembler" prot="public" virt="non-virtual">Robowars.RobotAssembler</basecompoundref>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="class_robowars_1_1_mining_robot_maker_1abeffc24ed40c904c9b0630cf0ad6c2f5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
-        <type>override <ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
-        <definition>override Robot Robowars.MiningRobotMaker.CreateRobot</definition>
+      <memberdef kind="function" id="class_robowars_1_1_mining_robot_maker_1ab271f16f7ceebf6ee9b1c665eaeaaf65" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_robowars_1_1_robots_1_1_robot" kindref="compound">Robots.Robot</ref></type>
+        <definition>override Robots.Robot Robowars.MiningRobotMaker.CreateRobot</definition>
         <argsstring>()</argsstring>
         <name>CreateRobot</name>
-        <reimplements refid="class_robowars_1_1_robot_assembler_1a74d4c946e230f19bc4117ef4835e658a">CreateRobot</reimplements>
+        <reimplements refid="class_robowars_1_1_robot_assembler_1a6fdd6be263421e9d7fac55c5743de93f">CreateRobot</reimplements>
         <briefdescription>
-<para>Creates weaponry for the robot. </para>
+<para><simplesect kind="return"><para>A new Miner instance</para>
+</simplesect>
+</para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="538" column="34" bodyfile="Robowars.cs" bodystart="538" bodyend="548"/>
+        <location file="MiningRobotMaker.cs" line="13" column="40" bodyfile="MiningRobotMaker.cs" bodystart="13" bodyend="23"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -49,10 +51,10 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="537" column="1" bodyfile="Robowars.cs" bodystart="536" bodyend="549"/>
+    <location file="MiningRobotMaker.cs" line="11" column="1" bodyfile="MiningRobotMaker.cs" bodystart="10" bodyend="24"/>
     <listofallmembers>
-      <member refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" virt="non-virtual"><scope>Robowars::MiningRobotMaker</scope><name>AssembleRobot</name></member>
-      <member refid="class_robowars_1_1_mining_robot_maker_1abeffc24ed40c904c9b0630cf0ad6c2f5" prot="protected" virt="virtual"><scope>Robowars::MiningRobotMaker</scope><name>CreateRobot</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1a53fc240dea50d69ec224d125ae371689" prot="public" virt="non-virtual"><scope>Robowars::MiningRobotMaker</scope><name>AssembleRobot</name></member>
+      <member refid="class_robowars_1_1_mining_robot_maker_1ab271f16f7ceebf6ee9b1c665eaeaaf65" prot="protected" virt="virtual"><scope>Robowars::MiningRobotMaker</scope><name>CreateRobot</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

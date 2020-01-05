@@ -1,0 +1,4 @@
+<map id="Robowars.Robots.RobotSituation.Attack" name="Robowars.Robots.RobotSituation.Attack">
+<area shape="rect" id="node1" title="Attempts a transition to the Attacking Situation" alt="" coords="257,5,475,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot.html#aea9bad5a8c9a34fd7a04772c79b1d136" title="Robot attacks the other robot with a random weapon, if the situation allows." alt="" coords="5,13,209,39"/>
+</map>

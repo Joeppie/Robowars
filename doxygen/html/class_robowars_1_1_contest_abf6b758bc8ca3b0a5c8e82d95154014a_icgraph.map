@@ -1,4 +1,0 @@
-<map id="Robowars.Contest.ShowMenu" name="Robowars.Contest.ShowMenu">
-<area shape="rect" id="node1" title="Shows a menu where the user can select a command to organize and initiate a fight" alt="" coords="217,5,413,32"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_program.html#af46e692d0f1e92dd1bae9ccb6daa191b" title=" " alt="" coords="5,5,169,32"/>
-</map>

@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_weapons_1_1_weapon" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::Weapons::Weapon</compoundname>
+    <derivedcompoundref refid="class_robowars_1_1_weapons_1_1_hammer" prot="public" virt="non-virtual">Robowars.Weapons.Hammer</derivedcompoundref>
+    <derivedcompoundref refid="class_robowars_1_1_weapons_1_1_laser" prot="public" virt="non-virtual">Robowars.Weapons.Laser</derivedcompoundref>
+    <derivedcompoundref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement" prot="public" virt="non-virtual">Robowars.Weapons.WeaponEnhancement</derivedcompoundref>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_weapon_1_1_damage_rating" prot="public">Robowars::Weapons::Weapon::DamageRating</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_weapons_1_1_weapon_1ad2f5489a5775ff61d021ccbf7b6f5d10" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract int</type>
+        <definition>abstract int Robowars.Weapons.Weapon.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <briefdescription>
+<para>Using the weapon drains this amount of power. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/Weapon.cs" line="10" column="29" bodyfile="Weapons/Weapon.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_robowars_1_1_weapons_1_1_weapon_1ad12359508d40ec1c034eca0a98d7c889" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Robowars.Weapons.Weapon.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/Weapon.cs" line="12" column="23" bodyfile="Weapons/Weapon.cs" bodystart="12" bodyend="12"/>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_hammer_1ad278265cd6341a035acd322bdfb961ac" compoundref="_hammer_8cs" startline="5" endline="9">Robowars.Weapons.Hammer.Hammer</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_laser_1a68beffc0adf79fa480f32c938cf2fc71" compoundref="_laser_8cs" startline="5" endline="9">Robowars.Weapons.Laser.Laser</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier_1aa5df27fd35ef87b09867448775dafb8c" compoundref="_weapon_upgrade_specifier_8cs" startline="43" endline="47">Robowars.Weapons.WeaponUpgradeSpecifier.Build</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_robowars_1_1_weapons_1_1_weapon_1abf712c9c5a56e56546490510f1932576" prot="package" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type><ref refid="class_robowars_1_1_weapons_1_1_weapon_1_1_damage_rating" kindref="compound">DamageRating</ref></type>
+        <definition>DamageRating Robowars.Weapons.Weapon.Damage</definition>
+        <argsstring></argsstring>
+        <name>Damage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/Weapon.cs" line="14" column="41" bodyfile="Weapons/Weapon.cs" bodystart="14" bodyend="14"/>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_hammer_1ad278265cd6341a035acd322bdfb961ac" compoundref="_hammer_8cs" startline="5" endline="9">Robowars.Weapons.Hammer.Hammer</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_laser_1a68beffc0adf79fa480f32c938cf2fc71" compoundref="_laser_8cs" startline="5" endline="9">Robowars.Weapons.Laser.Laser</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8" compoundref="_weapon_8cs" startline="16" endline="19">Robowars.Weapons.Weapon.GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int Robowars.Weapons.Weapon.GetDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamage</name>
+        <reimplementedby refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a6f4c22e9a93633e44c3fb455c97bf834">GetDamage</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1afaa373b3587bfedf62aadd172ccc1222">GetDamage</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae">GetDamage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/Weapon.cs" line="16" column="28" bodyfile="Weapons/Weapon.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_1abf712c9c5a56e56546490510f1932576" compoundref="_weapon_8cs" startline="14" endline="14">Robowars.Weapons.Weapon.Damage</references>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_1_1_damage_rating_1a6b7d9070e7ca6048a23f1a175def136b" compoundref="_weapon_8cs" startline="38" endline="41">Robowars.Weapons.Weapon.DamageRating.Get</references>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a6f4c22e9a93633e44c3fb455c97bf834" compoundref="_weapon_enhancement_8cs" startline="8" endline="11">Robowars.Weapons.WeaponEnhancement.GetDamage</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1afaa373b3587bfedf62aadd172ccc1222" compoundref="_fixed_damage_bonus_weapon_8cs" startline="14" endline="17">Robowars.Weapons.FixedDamageBonusWeapon.GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Defines a top level interface for a weapon. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Robowars.Weapons.FixedDamageBonusWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Robowars.Weapons.Hammer</label>
+        <link refid="class_robowars_1_1_weapons_1_1_hammer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Robowars.Weapons.Laser</label>
+        <link refid="class_robowars_1_1_weapons_1_1_laser"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Robowars.Weapons.Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+      <node id="6">
+        <label>Robowars.Weapons.PercentageBonusDamageWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Robowars.Weapons.WeaponEnhancement</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon_enhancement"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.Weapons.Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+    </collaborationgraph>
+    <location file="Weapons/Weapon.cs" line="8" column="1" bodyfile="Weapons/Weapon.cs" bodystart="7" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1abf712c9c5a56e56546490510f1932576" prot="package" virt="non-virtual"><scope>Robowars::Weapons::Weapon</scope><name>Damage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8" prot="public" virt="virtual"><scope>Robowars::Weapons::Weapon</scope><name>GetDamage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1ad12359508d40ec1c034eca0a98d7c889" prot="public" virt="non-virtual"><scope>Robowars::Weapons::Weapon</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1ad2f5489a5775ff61d021ccbf7b6f5d10" prot="public" virt="non-virtual"><scope>Robowars::Weapons::Weapon</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

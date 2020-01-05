@@ -1,0 +1,8 @@
+<map id="Robowars.Robots.Robot.Attack" name="Robowars.Robots.Robot.Attack">
+<area shape="rect" id="node1" title="Robot attacks the other robot with a random weapon, if the situation allows." alt="" coords="5,78,209,105"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a315b54104eb3d49393d2cd266aa40511" title="Attempts a transition to the Attacking Situation" alt="" coords="257,5,475,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_robot_situation.html#ac8cbc450ec8ecbcf22d036f89d8177d2" title="Attempts a transition to the Standby Situation" alt="" coords="257,71,475,112"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robots_1_1_robot.html#a1527aa8d6f7658939d31ac9e674d747f" title="Instructs the robot to take damage for a certain reason" alt="" coords="269,136,463,177"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a0d113708aa1f066d2df5c9a80b21efa2" title="Handles the logic for a Robot taking damage, and transitions the Situation to Destroyed when appropri..." alt="" coords="523,136,740,177"/>
+<area shape="rect" id="node6" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a352cf94b82a44b9cb58fe481527b7edf" title="Attempts a transition to the Destroyed Situation" alt="" coords="788,136,1005,177"/>
+</map>

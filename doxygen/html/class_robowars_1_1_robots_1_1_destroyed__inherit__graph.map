@@ -1,0 +1,4 @@
+<map id="Robowars.Robots.Destroyed" name="Robowars.Robots.Destroyed">
+<area shape="rect" id="node1" title="Indicates that the Robot has been Destroyed." alt="" coords="5,233,192,369"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot_situation.html" title="Represents a Situation a Robot can be in; Each method is a transition to a different RobotSituation,..." alt="" coords="35,5,162,185"/>
+</map>

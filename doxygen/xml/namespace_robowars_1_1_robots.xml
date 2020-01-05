@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_robowars_1_1_robots" kind="namespace" language="C#">
+    <compoundname>Robowars::Robots</compoundname>
+    <innerclass refid="class_robowars_1_1_robots_1_1_active" prot="package">Robowars::Robots::Active</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_attacking" prot="package">Robowars::Robots::Attacking</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_destroyed" prot="package">Robowars::Robots::Destroyed</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_miner" prot="public">Robowars::Robots::Miner</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_robot" prot="public">Robowars::Robots::Robot</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_robot_situation" prot="public">Robowars::Robots::RobotSituation</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_standby" prot="package">Robowars::Robots::Standby</innerclass>
+    <innerclass refid="class_robowars_1_1_robots_1_1_terminator" prot="public">Robowars::Robots::Terminator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Robots/Active.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

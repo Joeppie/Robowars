@@ -5,9 +5,9 @@
     <derivedcompoundref refid="class_robowars_1_1_mining_robot_maker" prot="public" virt="non-virtual">Robowars.MiningRobotMaker</derivedcompoundref>
     <derivedcompoundref refid="class_robowars_1_1_sky_net" prot="public" virt="non-virtual">Robowars.SkyNet</derivedcompoundref>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
-        <definition>Robot Robowars.RobotAssembler.AssembleRobot</definition>
+      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a53fc240dea50d69ec224d125ae371689" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_robowars_1_1_robots_1_1_robot" kindref="compound">Robots.Robot</ref></type>
+        <definition>Robots.Robot Robowars.RobotAssembler.AssembleRobot</definition>
         <argsstring>()</argsstring>
         <name>AssembleRobot</name>
         <briefdescription>
@@ -17,19 +17,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="503" column="22" bodyfile="Robowars.cs" bodystart="503" bodyend="506"/>
-        <references refid="class_robowars_1_1_robot_assembler_1a74d4c946e230f19bc4117ef4835e658a">Robowars.RobotAssembler.CreateRobot</references>
-        <referencedby refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_robowars_8cs" startline="47" endline="98">Robowars.Contest.ShowMenu</referencedby>
+        <location file="RobotAssembler.cs" line="9" column="28" bodyfile="RobotAssembler.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_robowars_1_1_robot_assembler_1a6fdd6be263421e9d7fac55c5743de93f">Robowars.RobotAssembler.CreateRobot</references>
+        <referencedby refid="class_robowars_1_1_contest_1abf6b758bc8ca3b0a5c8e82d95154014a" compoundref="_contest_8cs" startline="37" endline="88">Robowars.Contest.ShowMenu</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
-      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a74d4c946e230f19bc4117ef4835e658a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
-        <type>abstract <ref refid="class_robowars_1_1_robot" kindref="compound">Robot</ref></type>
-        <definition>abstract Robot Robowars.RobotAssembler.CreateRobot</definition>
+      <memberdef kind="function" id="class_robowars_1_1_robot_assembler_1a6fdd6be263421e9d7fac55c5743de93f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="class_robowars_1_1_robots_1_1_robot" kindref="compound">Robots.Robot</ref></type>
+        <definition>abstract Robots.Robot Robowars.RobotAssembler.CreateRobot</definition>
         <argsstring>()</argsstring>
         <name>CreateRobot</name>
-        <reimplementedby refid="class_robowars_1_1_sky_net_1a76aa41e68d9b4430628f687c63b32331">CreateRobot</reimplementedby>
-        <reimplementedby refid="class_robowars_1_1_mining_robot_maker_1abeffc24ed40c904c9b0630cf0ad6c2f5">CreateRobot</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_mining_robot_maker_1ab271f16f7ceebf6ee9b1c665eaeaaf65">CreateRobot</reimplementedby>
+        <reimplementedby refid="class_robowars_1_1_sky_net_1a2615476585aa5eaced8529a6f426b8ab">CreateRobot</reimplementedby>
         <briefdescription>
 <para>Creates weaponry for the robot. </para>
         </briefdescription>
@@ -37,8 +37,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Robowars.cs" line="508" column="34"/>
-        <referencedby refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" compoundref="_robowars_8cs" startline="503" endline="506">Robowars.RobotAssembler.AssembleRobot</referencedby>
+        <location file="RobotAssembler.cs" line="14" column="40"/>
+        <referencedby refid="class_robowars_1_1_robot_assembler_1a53fc240dea50d69ec224d125ae371689" compoundref="_robot_assembler_8cs" startline="9" endline="12">Robowars.RobotAssembler.AssembleRobot</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -70,10 +70,10 @@
         <link refid="class_robowars_1_1_robot_assembler"/>
       </node>
     </collaborationgraph>
-    <location file="Robowars.cs" line="501" column="1" bodyfile="Robowars.cs" bodystart="500" bodyend="509"/>
+    <location file="RobotAssembler.cs" line="7" column="1" bodyfile="RobotAssembler.cs" bodystart="6" bodyend="15"/>
     <listofallmembers>
-      <member refid="class_robowars_1_1_robot_assembler_1a33adb5edf364767e511a2ca2dbbb6bb3" prot="public" virt="non-virtual"><scope>Robowars::RobotAssembler</scope><name>AssembleRobot</name></member>
-      <member refid="class_robowars_1_1_robot_assembler_1a74d4c946e230f19bc4117ef4835e658a" prot="protected" virt="pure-virtual"><scope>Robowars::RobotAssembler</scope><name>CreateRobot</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1a53fc240dea50d69ec224d125ae371689" prot="public" virt="non-virtual"><scope>Robowars::RobotAssembler</scope><name>AssembleRobot</name></member>
+      <member refid="class_robowars_1_1_robot_assembler_1a6fdd6be263421e9d7fac55c5743de93f" prot="protected" virt="pure-virtual"><scope>Robowars::RobotAssembler</scope><name>CreateRobot</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

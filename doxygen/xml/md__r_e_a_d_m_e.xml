@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>Robowars</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Dit is een code uitwerking van een casus voor design patterns zoals gebruikt in een tentamen van design patterns 2019-2020.</para>
+<para>Gebruik Antwoorden.docx om je antwoorden in te vullen.</para>
+<para>Pas de code aan zoals benodigd voor de opgave(n) en pak na afloop deze hele map weer in naar een .zip file met je studentnummer en naam. Deze kun je vervolgens via Blackboard inleveren.</para>
+<para>(Er is Doxygen documentatie meegeleverd waarmee je eventueel via UML en documentatie de code kunt ook doorgronden. Deze kun je terugvinden onder de map doxygen/html/index.html.) </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

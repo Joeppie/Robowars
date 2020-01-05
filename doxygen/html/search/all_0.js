@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['_5finstance_0',['_instance',['../class_robowars_1_1_sky_net.html#aa355118ee64c4df99212fe03ca20f045',1,'Robowars::SkyNet']]],
-  ['_5fmark_1',['_mark',['../class_robowars_1_1_sky_net.html#a18155d15686340e9676ac99b3a469e53',1,'Robowars::SkyNet']]],
-  ['_5fminingrobotmaker_2',['_miningRobotMaker',['../class_robowars_1_1_contest.html#a9371c709ebc019015f1b2c91fb5ef1eb',1,'Robowars::Contest']]],
-  ['_5fname_3',['_name',['../class_robowars_1_1_weapon_upgrade_specifier.html#afdbd72d7ffef5e055581cf1374d9060a',1,'Robowars::WeaponUpgradeSpecifier']]],
-  ['_5fweapon_4',['_weapon',['../class_robowars_1_1_weapon_upgrade_specifier.html#acb0e6f1de5cca5afccba5f19588e1163',1,'Robowars::WeaponUpgradeSpecifier']]],
-  ['_5fweapons_5',['_weapons',['../class_robowars_1_1_robot.html#a8c6abe15990da1341db27863c431bd53',1,'Robowars::Robot']]]
+  ['activateifpossible_0',['ActivateIfPossible',['../class_robowars_1_1_robots_1_1_robot.html#ab49a3c4493ae32967a5bdad650368b77',1,'Robowars::Robots::Robot']]],
+  ['active_1',['Active',['../class_robowars_1_1_robots_1_1_active.html',1,'Robowars.Robots.Active'],['../class_robowars_1_1_robots_1_1_active.html#af4259cf153390375fae24acb65a942ba',1,'Robowars.Robots.Active.Active()']]],
+  ['active_2ecs_2',['Active.cs',['../_active_8cs.html',1,'']]],
+  ['assemblerobot_3',['AssembleRobot',['../class_robowars_1_1_robot_assembler.html#a53fc240dea50d69ec224d125ae371689',1,'Robowars::RobotAssembler']]],
+  ['assemblyinfo_2ecs_4',['AssemblyInfo.cs',['../_assembly_info_8cs.html',1,'']]],
+  ['attack_5',['Attack',['../class_robowars_1_1_robots_1_1_active.html#ad92112ca01eb38e2b60c0de573c03b5f',1,'Robowars.Robots.Active.Attack()'],['../class_robowars_1_1_robots_1_1_attacking.html#a511938db8df24ea70263598a144f574a',1,'Robowars.Robots.Attacking.Attack()'],['../class_robowars_1_1_robots_1_1_destroyed.html#ab5ba9a17fdc5e1c63c3b895113cb993f',1,'Robowars.Robots.Destroyed.Attack()'],['../class_robowars_1_1_robots_1_1_robot.html#aea9bad5a8c9a34fd7a04772c79b1d136',1,'Robowars.Robots.Robot.Attack()'],['../class_robowars_1_1_robots_1_1_robot_situation.html#a315b54104eb3d49393d2cd266aa40511',1,'Robowars.Robots.RobotSituation.Attack()'],['../class_robowars_1_1_robots_1_1_standby.html#a4de6518995b87fe1edee62a6dd7fb7f1',1,'Robowars.Robots.Standby.Attack()']]],
+  ['attacking_6',['Attacking',['../class_robowars_1_1_robots_1_1_attacking.html',1,'Robowars.Robots.Attacking'],['../class_robowars_1_1_robots_1_1_attacking.html#ab2b99bbcb88abcfbf2a7ba8824bdc895',1,'Robowars.Robots.Attacking.Attacking()']]],
+  ['attacking_2ecs_7',['Attacking.cs',['../_attacking_8cs.html',1,'']]]
 ];

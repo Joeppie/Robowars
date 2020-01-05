@@ -1,0 +1,5 @@
+<map id="Robowars.Robots.Robot" name="Robowars.Robots.Robot">
+<area shape="rect" id="node1" title="An interface and abstract implementation for basic Robot functionality" alt="" coords="103,5,265,244"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_miner.html" title="Represents a robot designed to perform mining tasks." alt="" coords="5,292,165,399"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_terminator.html" title="Represents a killer&#45;robot designed to &#39;terminate&#39; others" alt="" coords="189,299,379,391"/>
+</map>

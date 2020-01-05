@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_82cf1390f354fe976e6128e4c68a64f3" kind="dir">
+    <compoundname>Weapons</compoundname>
+    <innerfile refid="_fixed_damage_bonus_weapon_8cs">FixedDamageBonusWeapon.cs</innerfile>
+    <innerfile refid="_hammer_8cs">Hammer.cs</innerfile>
+    <innerfile refid="_laser_8cs">Laser.cs</innerfile>
+    <innerfile refid="_percentage_bonus_damage_weapon_8cs">PercentageBonusDamageWeapon.cs</innerfile>
+    <innerfile refid="_weapon_8cs">Weapon.cs</innerfile>
+    <innerfile refid="_weapon_enhancement_8cs">WeaponEnhancement.cs</innerfile>
+    <innerfile refid="_weapon_upgrade_specifier_8cs">WeaponUpgradeSpecifier.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Weapons/"/>
+  </compounddef>
+</doxygen>

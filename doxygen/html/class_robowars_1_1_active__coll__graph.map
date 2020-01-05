@@ -1,4 +1,0 @@
-<map id="Robowars.Active" name="Robowars.Active">
-<area shape="rect" id="node1" title=" " alt="" coords="9,248,128,384"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_robot_situation.html" title="Represents a Situation a robot can have; Each method is a transition to a different situation,..." alt="" coords="5,5,132,200"/>
-</map>

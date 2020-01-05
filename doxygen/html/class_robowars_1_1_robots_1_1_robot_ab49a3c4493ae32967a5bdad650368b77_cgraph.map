@@ -1,0 +1,4 @@
+<map id="Robowars.Robots.Robot.ActivateIfPossible" name="Robowars.Robots.Robot.ActivateIfPossible">
+<area shape="rect" id="node1" title="Attempts to restore the robot back to its Active situation, if possible." alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a1259c37d9ba6ad0384f7720186ccafe8" title="Attempts a transition to the Active Situation" alt="" coords="265,5,483,47"/>
+</map>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_robowars_1_1_weapons" kind="namespace" language="C#">
+    <compoundname>Robowars::Weapons</compoundname>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon" prot="public">Robowars::Weapons::FixedDamageBonusWeapon</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_hammer" prot="public">Robowars::Weapons::Hammer</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_laser" prot="public">Robowars::Weapons::Laser</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon" prot="public">Robowars::Weapons::PercentageBonusDamageWeapon</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_weapon" prot="public">Robowars::Weapons::Weapon</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_weapon_enhancement" prot="public">Robowars::Weapons::WeaponEnhancement</innerclass>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier" prot="public">Robowars::Weapons::WeaponUpgradeSpecifier</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Weapons/FixedDamageBonusWeapon.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

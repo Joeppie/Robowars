@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_miner_8cs" kind="file" language="C#">
+    <compoundname>Miner.cs</compoundname>
+    <innerclass refid="class_robowars_1_1_robots_1_1_miner" prot="public">Robowars::Robots::Miner</innerclass>
+    <innernamespace refid="namespace_robowars">Robowars</innernamespace>
+    <innernamespace refid="namespace_robowars_1_1_robots">Robowars::Robots</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_robowars" kindref="compound">Robowars</ref>.<ref refid="namespace_robowars_1_1_weapons" kindref="compound">Weapons</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_robowars_1_1_robots" kindref="compound">Robowars.Robots</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_robowars_1_1_robots_1_1_miner" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_robowars_1_1_robots_1_1_miner" kindref="compound">Miner</ref><sp/>:<sp/><ref refid="class_robowars_1_1_robots_1_1_robot" kindref="compound">Robot</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_robowars_1_1_robots_1_1_miner_1ae273993f72b553815e3f7e4cd65c5520" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ConsoleColor<sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1ae273993f72b553815e3f7e4cd65c5520" kindref="member">Color</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="15" refid="class_robowars_1_1_robots_1_1_miner_1a926a1fa3011e4009dc93cf365c4acbbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DayOfWeek<sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1a926a1fa3011e4009dc93cf365c4acbbb" kindref="member">day</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_robowars_1_1_robots_1_1_miner_1aa1e370c1ce2848e4cb672c001f9594bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1aa1e370c1ce2848e4cb672c001f9594bf" kindref="member">Miner</ref>(IEnumerable&lt;Weapon&gt;<sp/>weapons,<sp/>ConsoleColor<sp/>color,<sp/>DayOfWeek<sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1a926a1fa3011e4009dc93cf365c4acbbb" kindref="member">day</ref>)<sp/>:<sp/>base(weapons)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1ae273993f72b553815e3f7e4cd65c5520" kindref="member">Color</ref><sp/>=<sp/>color;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_robowars_1_1_robots_1_1_robot_1a76c62290a1ad658fd39b3463beb82c02" kindref="member">Name</ref><sp/>=<sp/>$</highlight><highlight class="stringliteral">&quot;Mining<sp/>Robot({color}-{day})&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_robowars_1_1_robots_1_1_miner_1a7e00030f5291da6e787de725a058b46b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1a7e00030f5291da6e787de725a058b46b" kindref="member">Report</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ConsoleColor<sp/>previous<sp/>=<sp/>Console.ForegroundColor;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.ForegroundColor<sp/>=<sp/><ref refid="class_robowars_1_1_robots_1_1_miner_1ae273993f72b553815e3f7e4cd65c5520" kindref="member">Color</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine($</highlight><highlight class="stringliteral">&quot;<sp/>`{Name}`,<sp/>Power:<sp/>{PowerLevel},<sp/>status:<sp/>{Situation.Description}<sp/>{Situation.Feedback}&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.ForegroundColor<sp/>=<sp/>previous;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Robots/Miner.cs"/>
+  </compounddef>
+</doxygen>

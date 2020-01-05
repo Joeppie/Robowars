@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::Weapons::PercentageBonusDamageWeapon</compoundname>
+    <basecompoundref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement" prot="public" virt="non-virtual">Robowars.Weapons.WeaponEnhancement</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>double</type>
+        <definition>double Robowars.Weapons.PercentageBonusDamageWeapon.BonusFactor</definition>
+        <argsstring></argsstring>
+        <name>BonusFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/PercentageBonusDamageWeapon.cs" line="7" column="23" bodyfile="Weapons/PercentageBonusDamageWeapon.cs" bodystart="7" bodyend="7"/>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a1da7a7e0a5ab42777f4bc1aee17690db" compoundref="_percentage_bonus_damage_weapon_8cs" startline="12" endline="16">Robowars.Weapons.PercentageBonusDamageWeapon.PercentageBonusDamageWeapon</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae" compoundref="_percentage_bonus_damage_weapon_8cs" startline="17" endline="20">Robowars.Weapons.PercentageBonusDamageWeapon.GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a8262dc09cbd008fb475e00fb533fcb03" prot="public" static="no" mutable="no">
+        <type>override int</type>
+        <definition>override int Robowars.Weapons.PercentageBonusDamageWeapon.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <initializer>=&gt; (int)Math.Round(EnhancedWeapon.PowerDrain * Math.Pow(<ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" kindref="member">BonusFactor</ref>, 1.2))</initializer>
+        <briefdescription>
+<para>Powerdrain increases slightly exponentially with stronger weapons. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/PercentageBonusDamageWeapon.cs" line="10" column="29" bodyfile="Weapons/PercentageBonusDamageWeapon.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a1da7a7e0a5ab42777f4bc1aee17690db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.Weapons.PercentageBonusDamageWeapon.PercentageBonusDamageWeapon</definition>
+        <argsstring>(Weapon weapontToEnhance, int percentBonus)</argsstring>
+        <name>PercentageBonusDamageWeapon</name>
+        <param>
+          <type><ref refid="class_robowars_1_1_weapons_1_1_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapontToEnhance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>percentBonus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/PercentageBonusDamageWeapon.cs" line="12" column="16" bodyfile="Weapons/PercentageBonusDamageWeapon.cs" bodystart="12" bodyend="16"/>
+        <references refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" compoundref="_percentage_bonus_damage_weapon_8cs" startline="7" endline="7">Robowars.Weapons.PercentageBonusDamageWeapon.BonusFactor</references>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" compoundref="_weapon_enhancement_8cs" startline="6" endline="6">Robowars.Weapons.WeaponEnhancement.EnhancedWeapon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override int</type>
+        <definition>override int Robowars.Weapons.PercentageBonusDamageWeapon.GetDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamage</name>
+        <reimplements refid="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8">GetDamage</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/PercentageBonusDamageWeapon.cs" line="17" column="29" bodyfile="Weapons/PercentageBonusDamageWeapon.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" compoundref="_percentage_bonus_damage_weapon_8cs" startline="7" endline="7">Robowars.Weapons.PercentageBonusDamageWeapon.BonusFactor</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+      <node id="1">
+        <label>Robowars.Weapons.PercentageBonusDamageWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponEnhancement</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon_enhancement"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+      <node id="1">
+        <label>Robowars.Weapons.PercentageBonusDamageWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>WeaponEnhancement</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon_enhancement"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Weapons/PercentageBonusDamageWeapon.cs" line="6" column="1" bodyfile="Weapons/PercentageBonusDamageWeapon.cs" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" prot="public" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>BonusFactor</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1abf712c9c5a56e56546490510f1932576" prot="package" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>Damage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" prot="public" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>EnhancedWeapon</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae" prot="public" virt="virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>GetDamage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1ad12359508d40ec1c034eca0a98d7c889" prot="public" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a1da7a7e0a5ab42777f4bc1aee17690db" prot="public" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>PercentageBonusDamageWeapon</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a8262dc09cbd008fb475e00fb533fcb03" prot="public" virt="non-virtual"><scope>Robowars::Weapons::PercentageBonusDamageWeapon</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

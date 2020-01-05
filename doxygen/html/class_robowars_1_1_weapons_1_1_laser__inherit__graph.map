@@ -1,0 +1,4 @@
+<map id="Robowars.Weapons.Laser" name="Robowars.Weapons.Laser">
+<area shape="rect" id="node1" title=" " alt="" coords="5,160,180,237"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_weapon.html" title="Defines a top level interface for a weapon." alt="" coords="37,5,148,112"/>
+</map>

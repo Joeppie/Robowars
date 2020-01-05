@@ -1,5 +1,0 @@
-<map id="RobotAssembler" name="RobotAssembler">
-<area shape="rect" id="node1" title="Represents logic regarding how specific robots may be produced." alt="" coords="77,5,211,97"/>
-<area shape="rect" id="node2" href="$class_mining_robot_maker.html" title="Creates friendly mining robots" alt="" coords="5,167,136,245"/>
-<area shape="rect" id="node3" href="$class_sky_net.html" title="Creates terminator robots" alt="" coords="161,145,274,267"/>
-</map>

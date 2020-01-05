@@ -1,4 +1,0 @@
-<map id="Robowars.RobotAssembler.AssembleRobot" name="Robowars.RobotAssembler.AssembleRobot">
-<area shape="rect" id="node1" title="Creates a new robot." alt="" coords="5,5,188,47"/>
-<area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html#a74d4c946e230f19bc4117ef4835e658a" title="Creates weaponry for the robot." alt="" coords="236,5,419,47"/>
-</map>

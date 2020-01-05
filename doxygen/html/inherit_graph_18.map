@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_robowars_1_1_robots_1_1_robot.html" title="An interface and abstract implementation for basic Robot functionality" alt="" coords="5,31,168,57"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_miner.html" title="Represents a robot designed to perform mining tasks." alt="" coords="231,5,391,32"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_terminator.html" title="Represents a killer&#45;robot designed to &#39;terminate&#39; others" alt="" coords="216,56,405,83"/>
+</map>

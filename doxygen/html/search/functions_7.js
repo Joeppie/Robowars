@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['laser_121',['Laser',['../class_robowars_1_1_laser.html#ab5d4383da98f29cc5379572baca76fdc',1,'Robowars::Laser']]]
+  ['laser_153',['Laser',['../class_robowars_1_1_weapons_1_1_laser.html#a68beffc0adf79fa480f32c938cf2fc71',1,'Robowars::Weapons::Laser']]]
 ];

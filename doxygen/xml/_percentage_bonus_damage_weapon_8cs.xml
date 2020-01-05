@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_percentage_bonus_damage_weapon_8cs" kind="file" language="C#">
+    <compoundname>PercentageBonusDamageWeapon.cs</compoundname>
+    <innerclass refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon" prot="public">Robowars::Weapons::PercentageBonusDamageWeapon</innerclass>
+    <innernamespace refid="namespace_robowars">Robowars</innernamespace>
+    <innernamespace refid="namespace_robowars_1_1_weapons">Robowars::Weapons</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_robowars_1_1_weapons" kindref="compound">Robowars.Weapons</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon" kindref="compound">PercentageBonusDamageWeapon</ref><sp/>:<sp/><ref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement" kindref="compound">WeaponEnhancement</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7" refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" kindref="member">BonusFactor</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a8262dc09cbd008fb475e00fb533fcb03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a8262dc09cbd008fb475e00fb533fcb03" kindref="member">PowerDrain</ref><sp/>=&gt;<sp/>(int)Math.Round(<ref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" kindref="member">EnhancedWeapon</ref>.<ref refid="class_robowars_1_1_weapons_1_1_weapon_1ad2f5489a5775ff61d021ccbf7b6f5d10" kindref="member">PowerDrain</ref><sp/>*<sp/>Math.Pow(<ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" kindref="member">BonusFactor</ref>,<sp/>1.2));</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a1da7a7e0a5ab42777f4bc1aee17690db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a1da7a7e0a5ab42777f4bc1aee17690db" kindref="member">PercentageBonusDamageWeapon</ref>(<ref refid="class_robowars_1_1_weapons_1_1_weapon" kindref="compound">Weapon</ref><sp/>weapontToEnhance,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>percentBonus)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" kindref="member">EnhancedWeapon</ref><sp/>=<sp/>weapontToEnhance;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" kindref="member">BonusFactor</ref><sp/>=<sp/>1<sp/>+<sp/>percentBonus<sp/>/<sp/>100d;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17" refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1adca5064c62d0c2114470e71801bc7cae" kindref="member">GetDamage</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)Math.Round(base.GetDamage()<sp/>*<sp/><ref refid="class_robowars_1_1_weapons_1_1_percentage_bonus_damage_weapon_1a63fcb5d1323242b1506509dd90d9a575" kindref="member">BonusFactor</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Weapons/PercentageBonusDamageWeapon.cs"/>
+  </compounddef>
+</doxygen>

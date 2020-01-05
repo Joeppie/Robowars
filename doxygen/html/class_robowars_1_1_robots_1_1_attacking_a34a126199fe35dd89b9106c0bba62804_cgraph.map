@@ -1,0 +1,4 @@
+<map id="Robowars.Robots.Attacking.Ready" name="Robowars.Robots.Attacking.Ready">
+<area shape="rect" id="node1" title="Attempts a transition to the Active Situation" alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_active.html#af4259cf153390375fae24acb65a942ba" title=" " alt="" coords="240,13,443,39"/>
+</map>

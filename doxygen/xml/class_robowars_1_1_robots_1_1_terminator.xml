@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_robots_1_1_terminator" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::Robots::Terminator</compoundname>
+    <basecompoundref refid="class_robowars_1_1_robots_1_1_robot" prot="public" virt="non-virtual">Robowars.Robots.Robot</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_robots_1_1_terminator_1a9e5ea45b729d3787e531214233c12d15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robowars.Robots.Terminator.Mark</definition>
+        <argsstring></argsstring>
+        <name>Mark</name>
+        <briefdescription>
+<para>The build number of the <ref refid="class_robowars_1_1_robots_1_1_terminator" kindref="compound">Terminator</ref>, the higher the stronger the robot tends to be. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robots/Terminator.cs" line="11" column="20" bodyfile="Robots/Terminator.cs" bodystart="11" bodyend="11"/>
+        <referencedby refid="class_robowars_1_1_robots_1_1_terminator_1a4e5d9830fc21e331b8aeaf155572418e" compoundref="_terminator_8cs" startline="16" endline="20">Robowars.Robots.Terminator.Terminator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_robowars_1_1_robots_1_1_terminator_1a4e5d9830fc21e331b8aeaf155572418e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.Robots.Terminator.Terminator</definition>
+        <argsstring>(IEnumerable&lt; Weapon &gt; weapons, int mark)</argsstring>
+        <name>Terminator</name>
+        <param>
+          <type>IEnumerable&lt; <ref refid="class_robowars_1_1_weapons_1_1_weapon" kindref="compound">Weapon</ref> &gt;</type>
+          <declname>weapons</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mark</declname>
+        </param>
+        <briefdescription>
+<para>Constructor that can only be called from this Assembly itself; it is not meant to be used directly or publicly. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robots/Terminator.cs" line="16" column="18" bodyfile="Robots/Terminator.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_robowars_1_1_robots_1_1_terminator_1a9e5ea45b729d3787e531214233c12d15" compoundref="_terminator_8cs" startline="11" endline="11">Robowars.Robots.Terminator.Mark</references>
+        <references refid="class_robowars_1_1_robots_1_1_robot_1a76c62290a1ad658fd39b3463beb82c02" compoundref="_robot_8cs" startline="43" endline="43">Robowars.Robots.Robot.Name</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_robots_1_1_terminator_1a661586115841f7b860c85cccd878401d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Robowars.Robots.Terminator.Report</definition>
+        <argsstring>()</argsstring>
+        <name>Report</name>
+        <reimplements refid="class_robowars_1_1_robots_1_1_robot_1ae253501c498959a9adeed96a369bb1a3">Report</reimplements>
+        <briefdescription>
+<para><para>Writes the status of the robot to the console.</para>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Robots/Terminator.cs" line="23" column="30" bodyfile="Robots/Terminator.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a killer-robot designed to &apos;terminate&apos; others </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Robot</label>
+        <link refid="class_robowars_1_1_robots_1_1_robot"/>
+      </node>
+      <node id="1">
+        <label>Robowars.Robots.Terminator</label>
+        <link refid="class_robowars_1_1_robots_1_1_terminator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Robot</label>
+        <link refid="class_robowars_1_1_robots_1_1_robot"/>
+      </node>
+      <node id="1">
+        <label>Robowars.Robots.Terminator</label>
+        <link refid="class_robowars_1_1_robots_1_1_terminator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Robots/Terminator.cs" line="9" column="1" bodyfile="Robots/Terminator.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1ab49a3c4493ae32967a5bdad650368b77" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>ActivateIfPossible</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1aea9bad5a8c9a34fd7a04772c79b1d136" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Attack</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1af9bf6af812541883f6c45fe99e21ad87" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>IsActive</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a6fdb9824926ce2a5d3dce15090e23d0f" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>IsDestroyed</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1adb8ca28403421d5e8f2009b2525ca6cb" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>IsMoving</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1aa1444494060dbd52467173cbdd27df07" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>IsStandby</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_terminator_1a9e5ea45b729d3787e531214233c12d15" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Mark</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a76c62290a1ad658fd39b3463beb82c02" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1afa00594223dac1c52f32f1f4ed9a5e5c" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>PowerLevel</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_terminator_1a661586115841f7b860c85cccd878401d" prot="public" virt="virtual"><scope>Robowars::Robots::Terminator</scope><name>Report</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a5b7477e34031e39143b28e3e5ce66b63" prot="package" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Robot</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a2e5584b891f7cfae9961aa4e93abd224" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Situation</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a1527aa8d6f7658939d31ac9e674d747f" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>TakeDamage</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_terminator_1a4e5d9830fc21e331b8aeaf155572418e" prot="package" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Terminator</name></member>
+      <member refid="class_robowars_1_1_robots_1_1_robot_1a17d5e72bf24b34fa902aa06980b20ab6" prot="public" virt="non-virtual"><scope>Robowars::Robots::Terminator</scope><name>Weapons</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

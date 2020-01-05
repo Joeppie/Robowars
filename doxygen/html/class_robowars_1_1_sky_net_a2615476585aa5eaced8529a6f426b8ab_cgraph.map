@@ -1,0 +1,8 @@
+<map id="Robowars.SkyNet.CreateRobot" name="Robowars.SkyNet.CreateRobot">
+<area shape="rect" id="node1" title="A new Terminator instance" alt="" coords="5,143,208,170"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#aa5df27fd35ef87b09867448775dafb8c" title=" " alt="" coords="256,5,495,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#a4c885a4e530cfbaab8dece77d8b49442" title=" " alt="" coords="256,71,495,112"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#a14433e99cb8e1afc5882b0c0d405e21d" title=" " alt="" coords="256,136,495,177"/>
+<area shape="rect" id="node5" href="$class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#ac803e80b2b4d1bc47819fb465c19f738" title=" " alt="" coords="256,201,495,243"/>
+<area shape="rect" id="node6" href="$class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#a3db013e1a0e625e17851d93bb6bde089" title=" " alt="" coords="256,267,495,308"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Robowars.RobotAssembler.CreateRobot" name="Robowars.RobotAssembler.CreateRobot">
+<area shape="rect" id="node1" title="Creates weaponry for the robot." alt="" coords="480,5,663,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robot_assembler.html#a53fc240dea50d69ec224d125ae371689" title="Creates a new robot." alt="" coords="249,5,432,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_contest.html#abf6b758bc8ca3b0a5c8e82d95154014a" title="Shows a menu where the user can select a command to organize and initiate a fight" alt="" coords="5,13,201,39"/>
+</map>

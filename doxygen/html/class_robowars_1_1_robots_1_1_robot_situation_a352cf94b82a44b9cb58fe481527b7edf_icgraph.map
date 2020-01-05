@@ -1,0 +1,6 @@
+<map id="Robowars.Robots.RobotSituation.Destroy" name="Robowars.Robots.RobotSituation.Destroy">
+<area shape="rect" id="node1" title="Attempts a transition to the Destroyed Situation" alt="" coords="765,5,983,47"/>
+<area shape="rect" id="node2" href="$class_robowars_1_1_robots_1_1_robot_situation.html#a0d113708aa1f066d2df5c9a80b21efa2" title="Handles the logic for a Robot taking damage, and transitions the Situation to Destroyed when appropri..." alt="" coords="500,5,717,47"/>
+<area shape="rect" id="node3" href="$class_robowars_1_1_robots_1_1_robot.html#a1527aa8d6f7658939d31ac9e674d747f" title="Instructs the robot to take damage for a certain reason" alt="" coords="257,5,452,47"/>
+<area shape="rect" id="node4" href="$class_robowars_1_1_robots_1_1_robot.html#aea9bad5a8c9a34fd7a04772c79b1d136" title="Robot attacks the other robot with a random weapon, if the situation allows." alt="" coords="5,13,209,39"/>
+</map>

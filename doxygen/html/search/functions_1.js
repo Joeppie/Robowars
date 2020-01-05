@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['build_109',['Build',['../class_robowars_1_1_weapon_upgrade_specifier.html#acba4fea284b33a76ac4f2c5891a9e309',1,'Robowars::WeaponUpgradeSpecifier']]]
+  ['build_141',['Build',['../class_robowars_1_1_weapons_1_1_weapon_upgrade_specifier.html#aa5df27fd35ef87b09867448775dafb8c',1,'Robowars::Weapons::WeaponUpgradeSpecifier']]]
 ];

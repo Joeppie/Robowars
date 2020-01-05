@@ -1,5 +1,0 @@
-<map id="FixedDamageBonusWeapon.GetDamage" name="FixedDamageBonusWeapon.GetDamage">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,217,47"/>
-<area shape="rect" id="node2" href="$class_weapon.html#ad704df53ef408c09160d55eb2ea5baf2" title=" " alt="" coords="265,13,408,39"/>
-<area shape="rect" id="node3" href="$class_weapon_1_1_damage_rating.html#ac62558ba51c8e83148a3d38317f5d228" title="Gets a new random damage between Min and Max." alt="" coords="456,13,640,39"/>
-</map>

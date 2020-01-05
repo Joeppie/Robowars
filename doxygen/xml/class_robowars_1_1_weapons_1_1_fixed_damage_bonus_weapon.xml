@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon" kind="class" language="C#" prot="public">
+    <compoundname>Robowars::Weapons::FixedDamageBonusWeapon</compoundname>
+    <basecompoundref refid="class_robowars_1_1_weapons_1_1_weapon_enhancement" prot="public" virt="non-virtual">Robowars.Weapons.WeaponEnhancement</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a4239ea9dc9b2cc96aa8aab0bf3389c9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>int</type>
+        <definition>int Robowars.Weapons.FixedDamageBonusWeapon.Bonus</definition>
+        <argsstring></argsstring>
+        <name>Bonus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/FixedDamageBonusWeapon.cs" line="5" column="20" bodyfile="Weapons/FixedDamageBonusWeapon.cs" bodystart="5" bodyend="5"/>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1ad64203af5785587e2b95e0cb164e03be" compoundref="_fixed_damage_bonus_weapon_8cs" startline="9" endline="13">Robowars.Weapons.FixedDamageBonusWeapon.FixedDamageBonusWeapon</referencedby>
+        <referencedby refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1afaa373b3587bfedf62aadd172ccc1222" compoundref="_fixed_damage_bonus_weapon_8cs" startline="14" endline="17">Robowars.Weapons.FixedDamageBonusWeapon.GetDamage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a8501a248d06ec2ac8791d12d3d1c0cc0" prot="public" static="no" mutable="no">
+        <type>override int</type>
+        <definition>override int Robowars.Weapons.FixedDamageBonusWeapon.PowerDrain</definition>
+        <argsstring></argsstring>
+        <name>PowerDrain</name>
+        <initializer>=&gt; EnhancedWeapon.PowerDrain + <ref refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a4239ea9dc9b2cc96aa8aab0bf3389c9f" kindref="member">Bonus</ref> / 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/FixedDamageBonusWeapon.cs" line="7" column="29" bodyfile="Weapons/FixedDamageBonusWeapon.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1ad64203af5785587e2b95e0cb164e03be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Robowars.Weapons.FixedDamageBonusWeapon.FixedDamageBonusWeapon</definition>
+        <argsstring>(Weapon weapontToEnhance, int bonus)</argsstring>
+        <name>FixedDamageBonusWeapon</name>
+        <param>
+          <type><ref refid="class_robowars_1_1_weapons_1_1_weapon" kindref="compound">Weapon</ref></type>
+          <declname>weapontToEnhance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bonus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/FixedDamageBonusWeapon.cs" line="9" column="16" bodyfile="Weapons/FixedDamageBonusWeapon.cs" bodystart="9" bodyend="13"/>
+        <references refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a4239ea9dc9b2cc96aa8aab0bf3389c9f" compoundref="_fixed_damage_bonus_weapon_8cs" startline="5" endline="5">Robowars.Weapons.FixedDamageBonusWeapon.Bonus</references>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" compoundref="_weapon_enhancement_8cs" startline="6" endline="6">Robowars.Weapons.WeaponEnhancement.EnhancedWeapon</references>
+      </memberdef>
+      <memberdef kind="function" id="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1afaa373b3587bfedf62aadd172ccc1222" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override int</type>
+        <definition>override int Robowars.Weapons.FixedDamageBonusWeapon.GetDamage</definition>
+        <argsstring>()</argsstring>
+        <name>GetDamage</name>
+        <reimplements refid="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8">GetDamage</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Weapons/FixedDamageBonusWeapon.cs" line="14" column="29" bodyfile="Weapons/FixedDamageBonusWeapon.cs" bodystart="14" bodyend="17"/>
+        <references refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a4239ea9dc9b2cc96aa8aab0bf3389c9f" compoundref="_fixed_damage_bonus_weapon_8cs" startline="5" endline="5">Robowars.Weapons.FixedDamageBonusWeapon.Bonus</references>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" compoundref="_weapon_enhancement_8cs" startline="6" endline="6">Robowars.Weapons.WeaponEnhancement.EnhancedWeapon</references>
+        <references refid="class_robowars_1_1_weapons_1_1_weapon_1ae031f8bce8e49d0bd8279c1ca81a76b8" compoundref="_weapon_8cs" startline="16" endline="19">Robowars.Weapons.Weapon.GetDamage</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Robowars.Weapons.FixedDamageBonusWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+      <node id="2">
+        <label>WeaponEnhancement</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon_enhancement"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Robowars.Weapons.FixedDamageBonusWeapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Weapon</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon"/>
+      </node>
+      <node id="2">
+        <label>WeaponEnhancement</label>
+        <link refid="class_robowars_1_1_weapons_1_1_weapon_enhancement"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Weapons/FixedDamageBonusWeapon.cs" line="4" column="1" bodyfile="Weapons/FixedDamageBonusWeapon.cs" bodystart="3" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a4239ea9dc9b2cc96aa8aab0bf3389c9f" prot="public" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>Bonus</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1abf712c9c5a56e56546490510f1932576" prot="package" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>Damage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_enhancement_1a4141298b80bbb5d75b8e348c5505e596" prot="public" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>EnhancedWeapon</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1ad64203af5785587e2b95e0cb164e03be" prot="public" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>FixedDamageBonusWeapon</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1afaa373b3587bfedf62aadd172ccc1222" prot="public" virt="virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>GetDamage</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_weapon_1ad12359508d40ec1c034eca0a98d7c889" prot="public" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>Name</name></member>
+      <member refid="class_robowars_1_1_weapons_1_1_fixed_damage_bonus_weapon_1a8501a248d06ec2ac8791d12d3d1c0cc0" prot="public" virt="non-virtual"><scope>Robowars::Weapons::FixedDamageBonusWeapon</scope><name>PowerDrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

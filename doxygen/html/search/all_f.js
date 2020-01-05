@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['showmenu_64',['ShowMenu',['../class_robowars_1_1_contest.html#abf6b758bc8ca3b0a5c8e82d95154014a',1,'Robowars::Contest']]],
-  ['showstatus_65',['ShowStatus',['../class_robowars_1_1_contest.html#aab738c7bae8a47f70118f9a0517551c1',1,'Robowars::Contest']]],
-  ['situation_66',['Situation',['../class_robowars_1_1_robot.html#aae9e14005ae5ecbc5378e8e358f82fd0',1,'Robowars::Robot']]],
-  ['skynet_67',['SkyNet',['../class_robowars_1_1_sky_net.html',1,'Robowars.SkyNet'],['../class_robowars_1_1_sky_net.html#afb5b2de327ccc12e642860b07a202f31',1,'Robowars.SkyNet.SkyNet()']]],
-  ['standby_68',['Standby',['../class_robowars_1_1_standby.html',1,'Robowars.Standby'],['../class_robowars_1_1_standby.html#ac22930163960269edebddb883299b39a',1,'Robowars.Standby.Standby()']]],
-  ['start_69',['start',['../class_robowars_1_1_sky_net.html#a02921b37dce6bd05d8524bf52a10df24',1,'Robowars::SkyNet']]]
+  ['takedamage_77',['TakeDamage',['../class_robowars_1_1_robots_1_1_robot.html#a1527aa8d6f7658939d31ac9e674d747f',1,'Robowars.Robots.Robot.TakeDamage()'],['../class_robowars_1_1_robots_1_1_robot_situation.html#a0d113708aa1f066d2df5c9a80b21efa2',1,'Robowars.Robots.RobotSituation.TakeDamage()']]],
+  ['terminator_78',['Terminator',['../class_robowars_1_1_robots_1_1_terminator.html',1,'Robowars.Robots.Terminator'],['../class_robowars_1_1_robots_1_1_terminator.html#a4e5d9830fc21e331b8aeaf155572418e',1,'Robowars.Robots.Terminator.Terminator()']]],
+  ['terminator_2ecs_79',['Terminator.cs',['../_terminator_8cs.html',1,'']]],
+  ['terminatorfacility_80',['TerminatorFacility',['../class_robowars_1_1_contest.html#a4ab8db4b5fcec16244f6c42329c766e2',1,'Robowars::Contest']]]
 ];
